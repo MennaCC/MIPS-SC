@@ -1,0 +1,12 @@
+[Version]
+Version=9.1
+[Designs]
+controlunit=.\ControlUnit\ControlUnit.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+controlunit=1

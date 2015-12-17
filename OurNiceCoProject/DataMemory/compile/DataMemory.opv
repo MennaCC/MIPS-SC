@@ -1,0 +1,1 @@
+ -erf "c:\3anQa2\Hardware & Embedded\HDL\OurNiceCoProject\DataMemory\compile\DataMemory.erf" -work DataMemory -lc "c:/3anQa2/Hardware & Embedded/HDL/OurNiceCoProject/library.cfg" -fl "c:/3anQa2/Hardware & Embedded/HDL/OurNiceCoProject/DataMemory/projlib.cfg" -o "c:/3anQa2/Hardware & Embedded/HDL/OurNiceCoProject/DataMemory/compile" -l "DataMemory" -sve   -O2

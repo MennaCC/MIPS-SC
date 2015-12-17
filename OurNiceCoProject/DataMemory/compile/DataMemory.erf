@@ -1,0 +1,11 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+BEGINPROGRESS Compiling...
+UPDATEPROGRESS 35
+MESSAGE "Pass 2. Processing instantiations."
+UPDATEPROGRESS 45
+MESSAGE "Pass 3. Processing behavioral statements."
+ERROR VCP2854 "dataMem[inAddress] is not a valid left-hand side of a continuous assignment." "c:/3anQa2/Hardware & Embedded/HDL/OurNiceCoProject/DataMemory/src/DataMemory.v" 14 42
+ERROR VCP5101 "Operand (cast'(MemRead)) is not a constant." "c:/3anQa2/Hardware & Embedded/HDL/OurNiceCoProject/DataMemory/src/DataMemory.v" 14 42
+UPDATEPROGRESS 80
+ENDPROGRESS Compiling...
+FAILURE "Compile failure 2 Errors 0 Warnings  Analysis time: 0[s]."

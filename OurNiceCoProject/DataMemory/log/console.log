@@ -1,0 +1,193 @@
+# Design: Design DataMemory already active.
+# 
+# DESIGN: Default Design Language: VERILOG
+# DESIGN: Default BDE Language: VERILOG
+# DESIGN: Flow Manager: Not Defined
+alog -O2 -sve  -work DataMemory $dsn/src/DataMemory.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 DataMemory.v : (9, 14): Syntax error. Unexpected token: input[_INPUT]. Expected tokens: 'signed' , 'unsigned' , sparse' , '[' , 'full_case' ... .
+# Error: VCP2570 DataMemory.v : (9, 9): Undefined port: DataByteAddress.
+# Error: VCP2000 DataMemory.v : (12, 19): Syntax error. Unexpected token: <=[O_LESSEQU]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Warning: VCP2515 DataMemory.v : (14, 1): Undefined module: inData was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 3 Errors 1 Warnings  Analysis time: 1[s].
+alog -O2 -sve  -work DataMemory $dsn/src/DataMemory.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 DataMemory.v : (9, 14): Syntax error. Unexpected token: input[_INPUT]. Expected tokens: 'signed' , 'unsigned' , sparse' , '[' , 'full_case' ... .
+# Error: VCP2000 DataMemory.v : (9, 41): Syntax error. Unexpected token: DataByteAddress[_IDENTIFIER]. Expected tokens: '[' , ')' , ',' , ';' , '=' ... .
+# Error: VCP2000 DataMemory.v : (12, 19): Syntax error. Unexpected token: <=[O_LESSEQU]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Warning: VCP2515 DataMemory.v : (14, 1): Undefined module: inData was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 DataMemory.v : (9, 1): Undefined module: DataByteAddress was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 3 Errors 2 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work DataMemory $dsn/src/DataMemory.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 DataMemory.v : (9, 41): Syntax error. Unexpected token: DataByteAddress[_IDENTIFIER]. Expected tokens: '[' , ')' , ',' , ';' , '=' ... .
+# Error: VCP2000 DataMemory.v : (12, 19): Syntax error. Unexpected token: <=[O_LESSEQU]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Warning: VCP2515 DataMemory.v : (14, 1): Undefined module: inData was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 DataMemory.v : (9, 1): Undefined module: DataByteAddress was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 2 Errors 2 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work DataMemory $dsn/src/DataMemory.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 DataMemory.v : (9, 41): Syntax error. Unexpected token: DataByteAddress[_IDENTIFIER]. Expected tokens: '[' , ')' , ',' , ';' , '=' ... .
+# Error: VCP2000 DataMemory.v : (12, 19): Syntax error. Unexpected token: <=[O_LESSEQU]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Warning: VCP2515 DataMemory.v : (14, 1): Undefined module: inData was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 DataMemory.v : (9, 1): Undefined module: DataByteAddress was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 2 Errors 2 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work DataMemory $dsn/src/DataMemory.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 DataMemory.v : (7, 34): Syntax error. Unexpected token: outData[_IDENTIFIER]. Expected tokens: '[' , ')' , ',' , ';' , '=' ... .
+# Error: VCP2000 DataMemory.v : (9, 41): Syntax error. Unexpected token: DataByteAddress[_IDENTIFIER]. Expected tokens: '[' , ')' , ',' , ';' , '=' ... .
+# Error: VCP2000 DataMemory.v : (12, 19): Syntax error. Unexpected token: <=[O_LESSEQU]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Warning: VCP2515 DataMemory.v : (7, 1): Undefined module: outData was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 DataMemory.v : (14, 1): Undefined module: inData was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 DataMemory.v : (9, 1): Undefined module: DataByteAddress was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 3 Errors 3 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work DataMemory $dsn/src/DataMemory.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 DataMemory.v : (7, 34): Syntax error. Unexpected token: outData[_IDENTIFIER]. Expected tokens: '[' , ')' , ',' , ';' , '=' ... .
+# Error: VCP2000 DataMemory.v : (9, 41): Syntax error. Unexpected token: DataByteAddress[_IDENTIFIER]. Expected tokens: '[' , ')' , ',' , ';' , '=' ... .
+# Error: VCP2000 DataMemory.v : (12, 19): Syntax error. Unexpected token: <=[O_LESSEQU]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Warning: VCP2515 DataMemory.v : (7, 1): Undefined module: outData was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 DataMemory.v : (14, 1): Undefined module: inData was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 DataMemory.v : (9, 1): Undefined module: DataByteAddress was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 3 Errors 3 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work DataMemory $dsn/src/DataMemory.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 DataMemory.v : (7, 27): Syntax error. Unexpected token: outData[_IDENTIFIER]. Expected tokens: '=' , '[' , ')' , ',' , ';'.
+# Error: VCP2000 DataMemory.v : (9, 41): Syntax error. Unexpected token: DataByteAddress[_IDENTIFIER]. Expected tokens: '[' , ')' , ',' , ';' , '=' ... .
+# Error: VCP2000 DataMemory.v : (12, 19): Syntax error. Unexpected token: <=[O_LESSEQU]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Warning: VCP2515 DataMemory.v : (14, 1): Undefined module: inData was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 DataMemory.v : (9, 1): Undefined module: DataByteAddress was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 3 Errors 2 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work DataMemory $dsn/src/DataMemory.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2563 DataMemory.v : (7, 1): Invalid type for declaration of port outData.
+# Error: VCP2570 DataMemory.v : (9, 5): Undefined port: DataByteAddress.
+# Error: VCP2000 DataMemory.v : (12, 19): Syntax error. Unexpected token: <=[O_LESSEQU]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Warning: VCP2515 DataMemory.v : (14, 1): Undefined module: inData was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 3 Errors 1 Warnings  Analysis time: 1[s].
+alog -O2 -sve  -work DataMemory $dsn/src/DataMemory.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 DataMemory.v : (7, 16): Syntax error. Unexpected token: output[_OUTPUT]. Expected tokens: 'signed' , 'unsigned' , sparse' , '[' , 'full_case' ... .
+# Error: VCP2570 DataMemory.v : (9, 5): Undefined port: DataByteAddress.
+# Error: VCP2000 DataMemory.v : (12, 19): Syntax error. Unexpected token: <=[O_LESSEQU]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Warning: VCP2515 DataMemory.v : (14, 1): Undefined module: inData was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 3 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work DataMemory $dsn/src/DataMemory.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 DataMemory.v : (7, 16): Syntax error. Unexpected token: output[_OUTPUT]. Expected tokens: 'signed' , 'unsigned' , sparse' , '[' , 'full_case' ... .
+# Error: VCP2570 DataMemory.v : (9, 5): Undefined port: dataMem.
+# Error: VCP2000 DataMemory.v : (12, 19): Syntax error. Unexpected token: <=[O_LESSEQU]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Warning: VCP2515 DataMemory.v : (14, 1): Undefined module: inData was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 3 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work DataMemory $dsn/src/DataMemory.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 DataMemory.v : (7, 16): Syntax error. Unexpected token: output[_OUTPUT]. Expected tokens: 'signed' , 'unsigned' , sparse' , '[' , 'full_case' ... .
+# Error: VCP2000 DataMemory.v : (12, 19): Syntax error. Unexpected token: <=[O_LESSEQU]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Warning: VCP2515 DataMemory.v : (14, 1): Undefined module: inData was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 2 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work DataMemory $dsn/src/DataMemory.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2563 DataMemory.v : (7, 1): Invalid type for declaration of port outData.
+# Error: VCP2000 DataMemory.v : (12, 19): Syntax error. Unexpected token: <=[O_LESSEQU]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Warning: VCP2515 DataMemory.v : (14, 1): Undefined module: inData was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 2 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work DataMemory $dsn/src/DataMemory.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 DataMemory.v : (12, 19): Syntax error. Unexpected token: <=[O_LESSEQU]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Warning: VCP2515 DataMemory.v : (14, 1): Undefined module: inData was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 1 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work DataMemory $dsn/src/DataMemory.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 DataMemory.v : (12, 19): Syntax error. Unexpected token: <=[O_LESSEQU]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Warning: VCP2515 DataMemory.v : (14, 1): Undefined module: inData was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 1 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work DataMemory $dsn/src/DataMemory.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 DataMemory.v : (12, 19): Syntax error. Unexpected token: <=[O_LESSEQU]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Warning: VCP2515 DataMemory.v : (14, 1): Undefined module: inData was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 1 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work DataMemory $dsn/src/DataMemory.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 DataMemory.v : (12, 18): Syntax error. Unexpected token: =. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Warning: VCP2515 DataMemory.v : (14, 1): Undefined module: inData was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 1 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work DataMemory $dsn/src/DataMemory.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 DataMemory.v : (12, 19): Syntax error. Unexpected token: <=[O_LESSEQU]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Warning: VCP2515 DataMemory.v : (14, 1): Undefined module: inData was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 1 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work DataMemory $dsn/src/DataMemory.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 DataMemory.v : (12, 18): Syntax error. Unexpected token: =. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Warning: VCP2515 DataMemory.v : (14, 1): Undefined module: inData was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 1 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work DataMemory $dsn/src/DataMemory.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 DataMemory.v : (14, 25): Syntax error. Unexpected token: [. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Warning: VCP2515 DataMemory.v : (14, 1): Undefined module: inData was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 1 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work DataMemory $dsn/src/DataMemory.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Error: VCP5103 DataMemory.v : (14, 42): Undeclared identifier: DataByteAddress.
+# Error: VCP5101 DataMemory.v : (14, 50): Operand (cast'(MemRead)) is not a constant.
+# Compile failure 2 Errors 0 Warnings  Analysis time: 1[s].
+alog -O2 -sve  -work DataMemory $dsn/src/DataMemory.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Error: VCP2854 DataMemory.v : (14, 42): dataMem[inAddress] is not a valid left-hand side of a continuous assignment.
+# Error: VCP5101 DataMemory.v : (14, 42): Operand (cast'(MemRead)) is not a constant.
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work DataMemory $dsn/src/DataMemory.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Error: VCP2854 DataMemory.v : (14, 42): dataMem[inAddress] is not a valid left-hand side of a continuous assignment.
+# Error: VCP5101 DataMemory.v : (14, 42): Operand (cast'(MemRead)) is not a constant.
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].

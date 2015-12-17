@@ -1,0 +1,29 @@
+timestamp=1450362951987
+
+[$root]
+A/$root=22|""|0|1*2256
+BinI32/$root=3*1092
+Version=9.1.2353.4205  (Windows)|00000011789cd3cd5170492c49f44dcdcd2faa54d0f537020031ce057b
+
+[DataMemory]
+A/DataMemory=22|./src/DataMemory.v|1|1*2646
+BinI32/DataMemory=3*1231
+P/~emb=237,431,628,757
+R=./src/DataMemory.v|1
+Version=9.1.2353.4205  (Windows)|00000011789cd3cd5170492c49f44dcdcd2faa54d0f537020031ce057b
+
+[~A]
+C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/DataMemory/src/DataMemory.v=0*3331*3867
+LastVerilogToplevel=DataMemory
+ModifyID=36
+Version=73
+
+[~MFT]
+0=9|0DataMemory.mgf|3867|1081
+1=5|1DataMemory.mgf|2646|2256
+3=5|3DataMemory.mgf|1231|1092
+
+[~U]
+$root=12|0*2197|
+DataMemory=12|0*2363||0x90
+

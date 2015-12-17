@@ -36,14 +36,17 @@ CompileWithDebug=0
 DataMemory=.
 Active_lib=
 
-[Files]
-/DataMemory.v=-1
-
-[Files.Data]
-.\src\DataMemory.v=Verilog Source Code
-
 [HierarchyViewer]
 SortInfo=u
 HierarchyInformation=
 ShowHide=ShowTopLevel
 Selected=
+
+[Files]
+/DataMemory.v=-1
+/InstructionMemory.v=-1
+
+[Files.Data]
+.\src\DataMemory.v=Verilog Source Code
+.\src\InstructionMemory.v=Verilog Source Code
+

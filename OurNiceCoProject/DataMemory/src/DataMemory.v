@@ -1,17 +1,21 @@
-module DataMemory (outData,inAddress,inData,MemWrite,MemRead); 
+module DataMemory (inoutData,inAddress,MemWrite,MemRead); 
 	
-	
-	input [0:7] inAddress, inData; 
-	//Control Signals
+	//nets
+	input [0:7] inAddress; 
 	input MemWrite, MemRead;
-	output [0:7] outData;
+	inout [0:7] inoutData;		
+	//registers
+	reg [0:7] dataMem [0:255]; 
 	
-	reg [0:7] dataMem [0:255];
 	
+	//continuous assignment
 	if (MemRead)
-		assign outData = dataMem[inAddress];
-	else if (MemWrite) 
-		assign dataMem[inAddress]= inData;	
+		assign inoutData = dataMem[inAddress];
 	
-
+	//procedural assignment
+	always @(MemWrite)
+	begin		
+		if (!MemRead) 
+			dataMem[inAddress]<= inoutData;		
+	end	
 endmodule

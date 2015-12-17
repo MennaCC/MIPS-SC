@@ -5,7 +5,7 @@ module DataMemory (inoutData,inAddress,MemWrite,MemRead);
 	input MemWrite, MemRead;
 	inout [0:7] inoutData;		
 	//registers
-	reg [0:7] dataMem [0:255]; 
+	reg [0:7] dataMem [0:1999]; 
 	
 	
 	//continuous assignment

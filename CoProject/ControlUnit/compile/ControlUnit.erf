@@ -1,7 +1,0 @@
-MESSAGE "Pass 1. Scanning modules hierarchy."
-BEGINPROGRESS Compiling...
-ERROR VCP2000 "Syntax error. Unexpected token: else[_ELSE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... ." "c:/My_Designs/CoProject/ControlUnit/src/ControlUnit.v" 59 13
-ERROR VCP2000 "Syntax error. Unexpected token: endmodule[_ENDMODULE]. Expected tokens: '(*' , '('." "c:/My_Designs/CoProject/ControlUnit/src/ControlUnit.v" 128 10
-UPDATEPROGRESS 35
-ENDPROGRESS Compiling...
-FAILURE "Compile failure 2 Errors 0 Warnings  Analysis time: 0[s]."

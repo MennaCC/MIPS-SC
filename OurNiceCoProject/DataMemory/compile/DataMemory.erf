@@ -9,10 +9,11 @@ UPDATEPROGRESS 80
 MESSAGE "Running Optimizer."
 MESSAGE "ELB/DAG code generating."
 MESSAGE_SP VCP2113 "Module \$root found in current working library."
+MESSAGE_SP VCP2113 "Module DataMemory found in current working library."
 UPDATEPROGRESS 90
 UPDATEPROGRESS 100
-MESSAGE "Unit top modules: DataMemory."
-MESSAGE "$root top modules: DataMemory."
+MESSAGE "Unit top modules: ControlUnit."
+MESSAGE "$root top modules: DataMemory ControlUnit."
 ENDPROGRESS Compiling...
-SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 3[s]."
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 0[s]."
 MESSAGE "done"

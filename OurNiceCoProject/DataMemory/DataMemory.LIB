@@ -1,8 +1,15 @@
-timestamp=1450362951987
+timestamp=1450388781032
 
 [$root]
-A/$root=22|""|0|1*2256
-BinI32/$root=3*1092
+A/$root=22|""|0|1*7189
+BinI32/$root=3*4935
+Version=9.1.2353.4205  (Windows)|00000011789cd3cd5170492c49f44dcdcd2faa54d0f537020031ce057b
+
+[ControlUnit]
+A/ControlUnit=22|./src/ControlUnit.v|1|1*7595
+BinI32/ControlUnit=3*5074
+P/~emb=500,852,1503,1699
+R=./src/ControlUnit.v|1
 Version=9.1.2353.4205  (Windows)|00000011789cd3cd5170492c49f44dcdcd2faa54d0f537020031ce057b
 
 [DataMemory]
@@ -13,17 +20,19 @@ R=./src/DataMemory.v|1
 Version=9.1.2353.4205  (Windows)|00000011789cd3cd5170492c49f44dcdcd2faa54d0f537020031ce057b
 
 [~A]
+C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/DataMemory/src/ControlUnit.v=0*11639*12656
 C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/DataMemory/src/DataMemory.v=0*3331*3867
-LastVerilogToplevel=DataMemory
-ModifyID=36
+LastVerilogToplevel=ControlUnit
+ModifyID=76
 Version=73
 
 [~MFT]
-0=9|0DataMemory.mgf|3867|1081
-1=5|1DataMemory.mgf|2646|2256
-3=5|3DataMemory.mgf|1231|1092
+0=19|0DataMemory.mgf|12656|2660
+1=12|1DataMemory.mgf|7595|5308
+3=12|3DataMemory.mgf|5074|3986
 
 [~U]
-$root=12|0*2197|
+$root=12|0*8815|
+ControlUnit=12|0*8997||0x90
 DataMemory=12|0*2363||0x90
 

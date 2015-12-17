@@ -1,1 +1,0 @@
- -erf "c:\My_Designs\CoProject\ControlUnit\compile\ControlUnit.erf" -work ControlUnit -lc c:/My_Designs/CoProject/library.cfg -fl c:/My_Designs/CoProject/ControlUnit/projlib.cfg -o c:/My_Designs/CoProject/ControlUnit/compile -l "ControlUnit" -sve   -O2

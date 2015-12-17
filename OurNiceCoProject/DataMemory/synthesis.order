@@ -1,2 +1,3 @@
 i<>.\src\DataMemory.v
 i<>.\src\InstructionMemory.v
+i<>.\src\ControlUnit.v

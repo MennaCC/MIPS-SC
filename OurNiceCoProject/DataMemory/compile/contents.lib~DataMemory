@@ -1,5 +1,7 @@
-36
+76
 ~M 0 "" 0 $root
 ~A 1 "" 0 $root
+~M 3 "./src/ControlUnit.v" 1 ControlUnit
+~A 1 "./src/ControlUnit.v" 1 ControlUnit
 ~M 3 "./src/DataMemory.v" 1 DataMemory
 ~A 1 "./src/DataMemory.v" 1 DataMemory

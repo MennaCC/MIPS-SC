@@ -1,0 +1,9 @@
+139
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 3 "./src/2-1mux.v" 1 mux_2x1
+~A 1 "./src/2-1mux.v" 1 mux_2x1
+~M 3 "./src/2-1mux structurally .v" 1 mux_2x1_structural
+~A 1 "./src/2-1mux structurally .v" 1 mux_2x1_structural
+~M 3 "./src/8-1mux structurally.v" 1 mux_8x1_structural
+~A 1 "./src/8-1mux structurally.v" 1 mux_8x1_structural

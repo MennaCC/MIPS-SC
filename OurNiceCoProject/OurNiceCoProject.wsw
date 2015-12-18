@@ -13,5 +13,7 @@ TemplateId=2
 TemplateId=2
 [OPENDOC|Aldec.Hde.HdePlugIn.7|.\SingleCycle\src\RegisterFile.v|]
 TemplateId=2
-[OPENDOC|Aldec.WaveFormASDB.7|untitled.awc|]
-TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\SingleCycle\src\SignExtend.v|]
+TemplateId=2
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\SingleCycle\src\ALU.v|]
+TemplateId=2

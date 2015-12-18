@@ -144,23 +144,6 @@ Global=
 [ExpressionCoverage]
 File=$dsn\excoverage\exc_data.exd
 
-[Files.Data]
-.\src\DataMemory.v=Verilog Source Code
-.\src\InstructionMemory.v=Verilog Source Code
-.\src\ControlUnit.v=Verilog Source Code
-.\src\2-1mux behaviorally.v=Verilog Source Code
-.\src\2-1mux structurally .v=Verilog Source Code
-.\src\8-1mux structurally.v=Verilog Source Code
-.\src\SignExtend.v=Verilog Source Code
-.\src\RegisterFile.v=Verilog Source Code
-.\compile\run_cdebug.do=Macro
-.\src\DataMem_wv.asdb=Accelerated Waveform File
-.\src\untitled.awc=Accelerated Waveform Configuration
-.\src\untitled.asdb=Accelerated Waveform File
-.\src\TestBench\DataMemory_TB.v=Verilog Test Bench
-.\src\TestBench\DataMemory_TB_runtest.do=Macro
-.\src\ALU.v=Verilog Source Code
-
 [Groups]
 TestBench=1
 
@@ -180,4 +163,21 @@ TestBench=1
 /untitled.asdb=-1
 TestBench/DataMemory_TB.v=-1
 TestBench/DataMemory_TB_runtest.do=-1
+
+[Files.Data]
+.\src\DataMemory.v=Verilog Source Code
+.\src\InstructionMemory.v=Verilog Source Code
+.\src\ControlUnit.v=Verilog Source Code
+.\src\2-1mux behaviorally.v=Verilog Source Code
+.\src\2-1mux structurally .v=Verilog Source Code
+.\src\8-1mux structurally.v=Verilog Source Code
+.\src\SignExtend.v=Verilog Source Code
+.\src\RegisterFile.v=Verilog Source Code
+.\src\ALU.v=Verilog Source Code
+.\compile\run_cdebug.do=Macro
+.\src\DataMem_wv.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\TestBench\DataMemory_TB.v=Verilog Test Bench
+.\src\TestBench\DataMemory_TB_runtest.do=Macro
 

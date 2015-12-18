@@ -1,4 +1,4 @@
-Active-HDL 9.1.2353.4205  2015-12-18 17:57:43
+Active-HDL 9.1.2353.4205  2015-12-18 10:52:41
 
 Elaboration top modules:
 Verilog Module                ALU
@@ -15,7 +15,3 @@ Library                 | Comment
 ----------------------------------------------------------------------------------------------
 singlecycle             | None
 ----------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim -O5 +access +w_nets +accb +accr +access +r +access +r+w ALU
-

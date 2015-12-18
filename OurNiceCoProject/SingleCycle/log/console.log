@@ -1,54 +1,24 @@
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
-alog -O2 -sve  -work SingleCycle $dsn/src/DataMemory.v $dsn/src/InstructionMemory.v $dsn/src/ControlUnit.v "$dsn/src/2-1mux behaviorally.v" "$dsn/src/2-1mux structurally .v" "$dsn/src/8-1mux structurally.v" $dsn/src/SignExtend.v $dsn/src/RegisterFile.v $dsn/src/ALU.v $dsn/src/TestBench/DataMemory_TB.v
+alog -O2 -sve  -work SingleCycle $dsn/src/ControlUnit.v
 # Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
 # Compile...
 # Pass 1. Scanning modules hierarchy.
 # Info: VCP2113 Module \$root found in current working library.
 # Pass 2. Processing instantiations.
-# Info: VCP2876 2-1mux structurally .v : (4, 1): Implicit net declaration, symbol L0 has not been declared in module mux_2x1_structural.
-# Info: VCP2876 2-1mux structurally .v : (5, 1): Implicit net declaration, symbol L2 has not been declared in module mux_2x1_structural.
-# Info: VCP2876 2-1mux structurally .v : (6, 1): Implicit net declaration, symbol L1 has not been declared in module mux_2x1_structural.
-# Info: VCP2876 8-1mux structurally.v : (4, 1): Implicit net declaration, symbol n0 has not been declared in module mux_8x1_structural.
-# Info: VCP2876 8-1mux structurally.v : (5, 1): Implicit net declaration, symbol n1 has not been declared in module mux_8x1_structural.
-# Info: VCP2876 8-1mux structurally.v : (6, 1): Implicit net declaration, symbol n2 has not been declared in module mux_8x1_structural.
-# Info: VCP2876 8-1mux structurally.v : (7, 1): Implicit net declaration, symbol L0 has not been declared in module mux_8x1_structural.
-# Info: VCP2876 8-1mux structurally.v : (8, 1): Implicit net declaration, symbol L1 has not been declared in module mux_8x1_structural.
-# Info: VCP2876 8-1mux structurally.v : (9, 1): Implicit net declaration, symbol L2 has not been declared in module mux_8x1_structural.
-# Info: VCP2876 8-1mux structurally.v : (10, 1): Implicit net declaration, symbol L3 has not been declared in module mux_8x1_structural.
-# Info: VCP2876 8-1mux structurally.v : (11, 1): Implicit net declaration, symbol L4 has not been declared in module mux_8x1_structural.
-# Info: VCP2876 8-1mux structurally.v : (12, 1): Implicit net declaration, symbol L5 has not been declared in module mux_8x1_structural.
-# Info: VCP2876 8-1mux structurally.v : (13, 1): Implicit net declaration, symbol L6 has not been declared in module mux_8x1_structural.
-# Info: VCP2876 8-1mux structurally.v : (14, 1): Implicit net declaration, symbol L7 has not been declared in module mux_8x1_structural.
 # Pass 3. Processing behavioral statements.
 # Running Optimizer.
 # ELB/DAG code generating.
 # Info: VCP2113 Module \$root found in current working library.
-# Unit top modules: InstructionsMemory ControlUnit mux_2x1_behavioral mux_2x1_structural mux_8x1_structural SignExtend RegisterFile ALU DataMemory_tb.
+# Info: VCP2113 Module InstructionsMemory found in current working library.
+# Info: VCP2113 Module DataMemory_tb found in current working library.
+# Info: VCP2113 Module mux_2x1_behavioral found in current working library.
+# Info: VCP2113 Module mux_2x1_structural found in current working library.
+# Info: VCP2113 Module mux_8x1_structural found in current working library.
+# Info: VCP2113 Module SignExtend found in current working library.
+# Info: VCP2113 Module RegisterFile found in current working library.
+# Info: VCP2113 Module ALU found in current working library.
+# Unit top modules: ControlUnit.
 # $root top modules: InstructionsMemory ControlUnit DataMemory_tb mux_2x1_behavioral mux_2x1_structural mux_8x1_structural SignExtend RegisterFile ALU.
-# Compile success 0 Errors 0 Warnings  Analysis time: 5[s].
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
 # done
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
-asim -O5 +access +w_nets +accb +accr +access +r +access +r+w ALU
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# asim: Stack memory: 32MB
-# asim: Retval memory: 32MB
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... done : 0.0 [s]
-# SLP: Generation phase ...
-# SLP: Generation phase ... done : 2.0 [s]
-# SLP: Finished : 2.1 [s]
-# SLP: 0 primitives and 2 (100.00%) other processes in SLP
-# SLP: 0 signals in SLP and 5 (100.00%) interface signals
-# ELAB2: Elaboration final pass complete - time: 2.2 [s].
-# KERNEL: SLP loading d

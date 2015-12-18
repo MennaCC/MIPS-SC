@@ -1,0 +1,1 @@
+ -erf "c:\My_Designs\EsraaWorkSpace\2x1MUX\compile\2x1MUX.erf" -work 2x1MUX -lc c:/My_Designs/EsraaWorkSpace/library.cfg -fl c:/My_Designs/EsraaWorkSpace/2x1MUX/projlib.cfg -o c:/My_Designs/EsraaWorkSpace/2x1MUX/compile -l "2x1MUX" -sve   -O2

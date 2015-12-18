@@ -1,0 +1,47 @@
+timestamp=1450429393688
+
+[$root]
+A/$root=22|""|0|1*11696
+BinI32/$root=3*2166
+Version=9.1.2353.4205  (Windows)|0000000d789cd3cd5130aa30f40d8d50d0f53702001822035d
+
+[mux_2x1]
+A/mux_2x1=22|./src/2-1mux.v|1|1*1866
+BinI32/mux_2x1=3*641
+P/~emb=165,316,458,521
+R=./src/2-1mux.v|1
+Version=9.1.2353.4205  (Windows)|0000000d789cd3cd5130aa30f40d8d50d0f53702001822035d
+
+[mux_2x1_structural]
+A/mux_2x1_structural=22|./src/2-1mux structurally .v|1|1*9965
+BinI32/mux_2x1_structural=3*2014
+P/~emb=183,366,498,639
+R=./src/2-1mux structurally .v|1
+Version=9.1.2353.4205  (Windows)|0000000d789cd3cd5130aa30f40d8d50d0f53702001822035d
+
+[mux_8x1_structural]
+A/mux_8x1_structural=22|./src/8-1mux structurally.v|1|1*12118
+BinI32/mux_8x1_structural=3*2305
+P/~emb=399,625,814,1108
+R=./src/8-1mux structurally.v|1
+Version=9.1.2353.4205  (Windows)|0000000d789cd3cd5130aa30f40d8d50d0f53702001822035d
+
+[~A]
+LastVerilogToplevel=mux_8x1_structural
+ModifyID=139
+Version=73
+c:/My_Designs/EsraaWorkSpace/2x1MUX/src/2-1mux structurally .v=0*9825*10247
+c:/My_Designs/EsraaWorkSpace/2x1MUX/src/2-1mux.v=0*2493*2869
+c:/My_Designs/EsraaWorkSpace/2x1MUX/src/8-1mux structurally.v=0*12145*12694
+
+[~MFT]
+0=35|02x1MUX.mgf|12694|3640
+1=23|12x1MUX.mgf|12118|8879
+3=23|32x1MUX.mgf|2305|1653
+
+[~U]
+$root=12|0*10742|
+mux_2x1=12|0*1817||0x90
+mux_2x1_structural=12|0*9074||0x90
+mux_8x1_structural=12|0*10924||0x90
+

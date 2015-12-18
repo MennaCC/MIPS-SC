@@ -1,0 +1,10 @@
+"./src/RegisterFile.v"	1
+"./src/ALU.v"	1
+"./src/2-1mux structurally .v"	1
+"./src/InstructionMemory.v"	1
+"./src/8-1mux structurally.v"	1
+"./src/SignExtend.v"	1
+"./src/2-1mux behaviorally.v"	1
+"./src/TestBench/DataMemory_TB.v"	1
+"./src/DataMemory.v"	1
+"./src/ControlUnit.v"	1

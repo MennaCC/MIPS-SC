@@ -1,0 +1,23 @@
+1221
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 3 "./src/ALU.v" 1 ALU
+~A 1 "./src/ALU.v" 1 ALU
+~M 3 "./src/ControlUnit.v" 1 ControlUnit
+~A 1 "./src/ControlUnit.v" 1 ControlUnit
+~M 1 "./src/DataMemory.v" 1 DataMemory
+~A 1 "./src/DataMemory.v" 1 DataMemory
+~M 3 "./src/TestBench/DataMemory_TB.v" 22 DataMemory_tb
+~A 1 "./src/TestBench/DataMemory_TB.v" 22 DataMemory_tb
+~M 3 "./src/InstructionMemory.v" 1 InstructionsMemory
+~A 1 "./src/InstructionMemory.v" 1 InstructionsMemory
+~M 3 "./src/RegisterFile.v" 1 RegisterFile
+~A 1 "./src/RegisterFile.v" 1 RegisterFile
+~M 3 "./src/SignExtend.v" 1 SignExtend
+~A 1 "./src/SignExtend.v" 1 SignExtend
+~M 3 "./src/2-1mux behaviorally.v" 1 mux_2x1_behavioral
+~A 1 "./src/2-1mux behaviorally.v" 1 mux_2x1_behavioral
+~M 3 "./src/2-1mux structurally .v" 1 mux_2x1_structural
+~A 1 "./src/2-1mux structurally .v" 1 mux_2x1_structural
+~M 3 "./src/8-1mux structurally.v" 1 mux_8x1_structural
+~A 1 "./src/8-1mux structurally.v" 1 mux_8x1_structural

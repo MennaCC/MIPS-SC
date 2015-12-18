@@ -1,0 +1,1 @@
+ -erf "C:\Users\Hamdy\Source\Repos\MIPS-SC\OurNiceCoProject\SingleCycle\compile\SingleCycle.erf" -work SingleCycle -lc C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/library.cfg -fl C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/projlib.cfg -o C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/compile -l "SingleCycle" -sve   -O2

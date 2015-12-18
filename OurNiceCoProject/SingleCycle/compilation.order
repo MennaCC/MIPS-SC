@@ -6,4 +6,5 @@
 .\src\8-1mux structurally.v
 .\src\SignExtend.v
 .\src\RegisterFile.v
+.\src\ALU.v
 .\src\TestBench\DataMemory_TB.v

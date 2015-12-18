@@ -29,13 +29,87 @@ SYNTH_TOOL=
 CDebugMacro=$dsn/compile/run_cdebug.do
 CDebugWatchList=
 fileopenfolder=C:\Users\Hamdy\Source\Repos\MIPS-SC\OurNiceCoProject\SingleCycle\src
+VerilogDirsChanged=1
+NoTchkMsg=0
+NoTimingChecks=0
+HESPrepare=0
+EnableXtrace=0
+SplitNetVectors=0
+StackMemorySize=32
+RetvalMemorySize=32
+VsimAdditionalOptions=
+DisableVitalMsg=0
+VitalAccel=1
+VitalGlitches=0
+DisableIEEEWarnings=0
+SimulationAccessReadModules=
+SimulationAccessReadWriteModules=
+SimulationAccessReadPaths=
+SimulationAccessReadWritePaths=
+SimulationAccessNetsPaths=
+SimulationAccessNetsModules=
+ReportAssertionsActivations=0
+TrackAssertionFailures=1
+ReportAssertionsFailures=1
+AssertionFailureLimit=0
+AssertionFailureAction=Continue
+TrackAssertionPasses=1
+ReportAssertionPasses=0
+AssertionPassLimit=0
+ReportUnfinishedAssertions=1
+TrackCoverMatches=1
+ReportCoverMatches=1
+CoverAction=Continue
+ReportDroppedCoverEvaluations=0
+ReportActivatedCoverEvaluations=0
 
 [LocalVerilogSets]
 EnableSLP=1
 EnableDebug=0
+Strict=0
+VerilogLanguage=4
+VerilogNoSpecify=0
+WarningPrnLevel=1
+ErrorOutputLimit=0
+OptimizationLevel=2
+ProtectLevel=0
+AdditionalOptions=
+ForceCellDefine=0
+VerilogCompOff=0
+GenMultiplatformLib=0
+SourceFileExt=
+IncrementalCompilation=0
+IgnoreLineNumbers=0
+VerilogDisableClocksNumbers=0
+VerilogChangeEvalAsynchronous=0
+VerilogAssertionsMessageSeverity=Error
+VerilogDisabledAssertionsProcessing=None
+VerilogDisableEmbeddedOvaPslProcessing=0
+VerilogDisablePslProcessing=0
+VerilogDisableOvaProcessing=0
+VerilogDisableSvaProcessing=0
 
 [LocalVhdlSets]
 CompileWithDebug=0
+DisableVHDL87Key=0
+EnableVHDL93Key=0
+EnableVHDL2002Key=1
+EnableVHDL2006Key=0
+EnableVHDL2008Key=0
+NetlistCompilation=1
+Syntax RelaxLRM=0
+MaxErrorsKey=100
+OptimizationLevel=3
+DisableRangeChecks=0
+ProtectLevel=0
+AdditionalOptions=
+IncrementalCompilation=0
+ReorderOnFirstRebuild=1
+ElaborationAfterCompilation=0
+PrintErrWarnOnly=0
+GenMultiplatformLib=0
+VhdlChangeEvalAsynchronous=0
+VhdlDisableAssertionsProcessing=0
 
 [$LibMap$]
 SingleCycle=.
@@ -64,6 +138,12 @@ HierarchyInformation=
 ShowHide=ShowTopLevel
 Selected=
 
+[DefineMacro]
+Global=
+
+[ExpressionCoverage]
+File=$dsn\excoverage\exc_data.exd
+
 [Files.Data]
 .\src\DataMemory.v=Verilog Source Code
 .\src\InstructionMemory.v=Verilog Source Code
@@ -72,13 +152,14 @@ Selected=
 .\src\2-1mux structurally .v=Verilog Source Code
 .\src\8-1mux structurally.v=Verilog Source Code
 .\src\SignExtend.v=Verilog Source Code
+.\src\RegisterFile.v=Verilog Source Code
 .\compile\run_cdebug.do=Macro
 .\src\DataMem_wv.asdb=Accelerated Waveform File
 .\src\untitled.awc=Accelerated Waveform Configuration
 .\src\untitled.asdb=Accelerated Waveform File
-.\src\RegisterFile.v=Verilog Source Code
 .\src\TestBench\DataMemory_TB.v=Verilog Test Bench
 .\src\TestBench\DataMemory_TB_runtest.do=Macro
+.\src\ALU.v=Verilog Source Code
 
 [Groups]
 TestBench=1
@@ -92,6 +173,7 @@ TestBench=1
 /8-1mux structurally.v=-1
 /SignExtend.v=-1
 /RegisterFile.v=-1
+/ALU.v=-1
 /..\compile\run_cdebug.do=-1
 /DataMem_wv.asdb=-1
 /untitled.awc=-1

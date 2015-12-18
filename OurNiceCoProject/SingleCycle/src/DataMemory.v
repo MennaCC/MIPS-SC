@@ -10,7 +10,7 @@ module DataMemory (inoutData,inAddress,MemWrite,MemRead);
 	
 	
 	//continuous assignment
-	 assign inoutData = dataMem[inAddress];
+	assign inoutData = dataMem[inAddress];
 
 	//reads the binary contents of the file into the memory
 	initial $readmemb("C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/dataMemoryFile.list",dataMem);

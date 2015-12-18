@@ -5,3 +5,4 @@ i<>.\src\8-1mux structurally.v
 i<>.\src\ControlUnit.v
 i<>.\src\SignExtend.v
 i<>.\src\RegisterFile.v
+i<>.\src\ALU.v

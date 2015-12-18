@@ -3,11 +3,12 @@ MESSAGE_SP VCP2113 "Module \$root found in current working library."
 BEGINPROGRESS Compiling...
 UPDATEPROGRESS 3
 UPDATEPROGRESS 7
-UPDATEPROGRESS 11
-UPDATEPROGRESS 15
-UPDATEPROGRESS 19
-UPDATEPROGRESS 23
-UPDATEPROGRESS 27
+UPDATEPROGRESS 10
+UPDATEPROGRESS 14
+UPDATEPROGRESS 17
+UPDATEPROGRESS 21
+UPDATEPROGRESS 24
+UPDATEPROGRESS 28
 UPDATEPROGRESS 31
 UPDATEPROGRESS 35
 MESSAGE "Pass 2. Processing instantiations."
@@ -31,18 +32,19 @@ UPDATEPROGRESS 80
 MESSAGE "Running Optimizer."
 MESSAGE "ELB/DAG code generating."
 MESSAGE_SP VCP2113 "Module \$root found in current working library."
-UPDATEPROGRESS 82
-UPDATEPROGRESS 84
-UPDATEPROGRESS 86
-UPDATEPROGRESS 88
+UPDATEPROGRESS 81
+UPDATEPROGRESS 83
+UPDATEPROGRESS 85
+UPDATEPROGRESS 87
+UPDATEPROGRESS 89
 UPDATEPROGRESS 90
 UPDATEPROGRESS 92
 UPDATEPROGRESS 94
 UPDATEPROGRESS 96
 UPDATEPROGRESS 98
 UPDATEPROGRESS 100
-MESSAGE "Unit top modules: InstructionsMemory ControlUnit mux_2x1_behavioral mux_2x1_structural mux_8x1_structural SignExtend RegisterFile DataMemory_tb."
-MESSAGE "$root top modules: InstructionsMemory ControlUnit DataMemory_tb mux_2x1_behavioral mux_2x1_structural mux_8x1_structural SignExtend RegisterFile."
+MESSAGE "Unit top modules: InstructionsMemory ControlUnit mux_2x1_behavioral mux_2x1_structural mux_8x1_structural SignExtend RegisterFile ALU DataMemory_tb."
+MESSAGE "$root top modules: InstructionsMemory ControlUnit DataMemory_tb mux_2x1_behavioral mux_2x1_structural mux_8x1_structural SignExtend RegisterFile ALU."
 ENDPROGRESS Compiling...
-SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 0[s]."
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 5[s]."
 MESSAGE "done"

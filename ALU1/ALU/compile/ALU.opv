@@ -1,0 +1,1 @@
+ -erf "c:\My_Designs\ALU1\ALU\compile\ALU.erf" -work ALU -lc c:/My_Designs/ALU1/library.cfg -fl c:/My_Designs/ALU1/ALU/projlib.cfg -o c:/My_Designs/ALU1/ALU/compile -l "ALU" -sve   -O2

@@ -1,0 +1,1 @@
+ -u "C:\Aldec\Active-HDL 9.1\bin/systf.dll" -v2k5  "c:\My_Designs\ALU1\ALU\src\ALU.v"  -cs  -g 5  -r -li "c:\My_Designs\ALU1\ALU\compile\ALU.epr" -p "c:\My_Designs\ALU1\ALU" 

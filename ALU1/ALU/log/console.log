@@ -1,0 +1,269 @@
+# Design: Design ALU already active.
+# 
+# DESIGN: Default Design Language: VERILOG
+# DESIGN: Default BDE Language: VERILOG
+# DESIGN: Flow Manager: Not Defined
+# Design: Design "ALU" has been set as active.
+alog -O2 -sve  -work ALU $dsn/src/ALU.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 ALU.v : (1, 8): Syntax error. Unexpected token: (. Expected tokens: 'automatic' , 'static' , 'full_case' , 'parallel_case' , 'parallel_case full_case' ... .
+# Error: VCP2000 ALU.v : (7, 11): Syntax error. Unexpected token: output[_OUTPUT]. Expected tokens: 'function' , 'task' , 'timeprecision' , 'timeunit' , 'const' ... .
+# Compile failure 2 Errors 0 Warnings  Analysis time: 1[s].
+alog -O2 -sve  -work ALU $dsn/src/ALU.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 ALU.v : (1, 8): Syntax error. Unexpected token: (. Expected tokens: 'automatic' , 'static' , 'full_case' , 'parallel_case' , 'parallel_case full_case' ... .
+# Error: VCP2000 ALU.v : (7, 11): Syntax error. Unexpected token: output[_OUTPUT]. Expected tokens: 'function' , 'task' , 'timeprecision' , 'timeunit' , 'const' ... .
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work ALU $dsn/src/ALU.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 ALU.v : (1, 8): Syntax error. Unexpected token: (. Expected tokens: 'automatic' , 'static' , 'full_case' , 'parallel_case' , 'parallel_case full_case' ... .
+# Error: VCP2000 ALU.v : (9, 11): Syntax error. Unexpected token: always[_ALWAYS]. Expected tokens: 'function' , 'task' , 'timeprecision' , 'timeunit' , 'const' ... .
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work ALU $dsn/src/ALU.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 ALU.v : (1, 8): Syntax error. Unexpected token: (. Expected tokens: 'automatic' , 'static' , 'full_case' , 'parallel_case' , 'parallel_case full_case' ... .
+# Error: VCP2000 ALU.v : (9, 11): Syntax error. Unexpected token: always[_ALWAYS]. Expected tokens: 'function' , 'task' , 'timeprecision' , 'timeunit' , 'const' ... .
+# Compile failure 2 Errors 0 Warnings  Analysis time: 1[s].
+alog -O2 -sve  -work ALU $dsn/src/ALU.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 ALU.v : (1, 8): Syntax error. Unexpected token: (. Expected tokens: 'automatic' , 'static' , 'full_case' , 'parallel_case' , 'parallel_case full_case' ... .
+# Error: VCP2000 ALU.v : (9, 11): Syntax error. Unexpected token: always[_ALWAYS]. Expected tokens: 'function' , 'task' , 'timeprecision' , 'timeunit' , 'const' ... .
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work ALU $dsn/src/ALU.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 ALU.v : (1, 8): Syntax error. Unexpected token: (. Expected tokens: 'automatic' , 'static' , 'full_case' , 'parallel_case' , 'parallel_case full_case' ... .
+# Error: VCP2000 ALU.v : (9, 11): Syntax error. Unexpected token: always[_ALWAYS]. Expected tokens: 'function' , 'task' , 'timeprecision' , 'timeunit' , 'const' ... .
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work ALU $dsn/src/ALU.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 ALU.v : (1, 8): Syntax error. Unexpected token: (. Expected tokens: 'automatic' , 'static' , 'full_case' , 'parallel_case' , 'parallel_case full_case' ... .
+# Error: VCP2000 ALU.v : (9, 11): Syntax error. Unexpected token: always[_ALWAYS]. Expected tokens: 'function' , 'task' , 'timeprecision' , 'timeunit' , 'const' ... .
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work ALU $dsn/src/ALU.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 ALU.v : (1, 8): Syntax error. Unexpected token: (. Expected tokens: 'automatic' , 'static' , 'full_case' , 'parallel_case' , 'parallel_case full_case' ... .
+# Error: VCP2000 ALU.v : (9, 11): Syntax error. Unexpected token: ALWAYS[_IDENTIFIER]. Expected tokens: 'function' , 'task' , 'timeprecision' , 'timeunit' , 'const' ... .
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work ALU $dsn/src/C.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP5018 C.v : (2, 25): Macro ALULEN is not defined.
+# Error: VCP2000 C.v : (2, 26): Syntax error. Unexpected token: :. Expected tokens: ''' , '(' , '{' , 'integer'' , 'real'' ... .
+# Error: VCP5018 C.v : (3, 25): Macro ALULEN is not defined.
+# Error: VCP2000 C.v : (3, 26): Syntax error. Unexpected token: :. Expected tokens: ''' , '(' , '{' , 'integer'' , 'real'' ... .
+# Error: VCP5018 C.v : (7, 25): Macro ALULEN is not defined.
+# Error: VCP2000 C.v : (7, 26): Syntax error. Unexpected token: :. Expected tokens: ''' , '(' , '{' , 'integer'' , 'real'' ... .
+# Error: VCP5220 C.v : (12, 30): Variable reference to a non-variable Result1.
+# Error: VCP5119 C.v : (12, 1): Interface used in expression: B.
+# Error: VCP5220 C.v : (13, 30): Variable reference to a non-variable Result1.
+# Error: VCP5119 C.v : (13, 1): Interface used in expression: B.
+# Error: VCP5220 C.v : (21, 23): Variable reference to a non-variable Result1.
+# Error: VCP2565 C.v : (1, 1): Undefined direction of external port Result.
+# Error: VCP2567 C.v : (1, 1): Undefined direction of internal port Result.
+# Error: VCP2565 C.v : (1, 1): Undefined direction of external port A.
+# Error: VCP2567 C.v : (1, 1): Undefined direction of internal port A.
+# Warning: VCP2515 C.v : (7, 1): Undefined module: A was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 C.v : (3, 1): Undefined module: Result1 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 C.v : (2, 1): Undefined module: Result was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 15 Errors 3 Warnings  Analysis time: 1[s].
+alog -O2 -sve  -work ALU $dsn/src/C.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 C.v : (1, 9): Syntax error. Unexpected token: define[_IDENTIFIER]. Expected tokens: 'function' , 'task' , 'timeprecision' , 'timeunit' , 'const' ... .
+# Error: VCP5018 C.v : (3, 25): Macro ALULEN is not defined.
+# Error: VCP2000 C.v : (3, 26): Syntax error. Unexpected token: :. Expected tokens: ''' , '(' , '{' , 'integer'' , 'real'' ... .
+# Error: VCP5018 C.v : (4, 25): Macro ALULEN is not defined.
+# Error: VCP2000 C.v : (4, 26): Syntax error. Unexpected token: :. Expected tokens: ''' , '(' , '{' , 'integer'' , 'real'' ... .
+# Error: VCP5018 C.v : (8, 25): Macro ALULEN is not defined.
+# Error: VCP2000 C.v : (8, 26): Syntax error. Unexpected token: :. Expected tokens: ''' , '(' , '{' , 'integer'' , 'real'' ... .
+# Error: VCP5220 C.v : (13, 30): Variable reference to a non-variable Result1.
+# Error: VCP5119 C.v : (13, 1): Interface used in expression: B.
+# Error: VCP5220 C.v : (14, 30): Variable reference to a non-variable Result1.
+# Error: VCP5119 C.v : (14, 1): Interface used in expression: B.
+# Error: VCP5220 C.v : (22, 23): Variable reference to a non-variable Result1.
+# Error: VCP2565 C.v : (2, 1): Undefined direction of external port Result.
+# Error: VCP2567 C.v : (2, 1): Undefined direction of internal port Result.
+# Error: VCP2565 C.v : (2, 1): Undefined direction of external port A.
+# Error: VCP2567 C.v : (2, 1): Undefined direction of internal port A.
+# Warning: VCP2515 C.v : (8, 1): Undefined module: A was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 C.v : (4, 1): Undefined module: Result1 was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 C.v : (3, 1): Undefined module: Result was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 16 Errors 3 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work ALU $dsn/src/ALU.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 ALU.v : (1, 8): Syntax error. Unexpected token: (. Expected tokens: 'automatic' , 'static' , 'full_case' , 'parallel_case' , 'parallel_case full_case' ... .
+# Error: VCP2000 ALU.v : (8, 11): Syntax error. Unexpected token: always[_ALWAYS]. Expected tokens: 'function' , 'task' , 'timeprecision' , 'timeunit' , 'const' ... .
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work ALU $dsn/src/ALU.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 ALU.v : (1, 8): Syntax error. Unexpected token: (. Expected tokens: 'automatic' , 'static' , 'full_case' , 'parallel_case' , 'parallel_case full_case' ... .
+# Error: VCP2000 ALU.v : (8, 11): Syntax error. Unexpected token: always[_ALWAYS]. Expected tokens: 'function' , 'task' , 'timeprecision' , 'timeunit' , 'const' ... .
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work ALU $dsn/src/ALU.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 ALU.v : (1, 8): Syntax error. Unexpected token: (. Expected tokens: 'automatic' , 'static' , 'full_case' , 'parallel_case' , 'parallel_case full_case' ... .
+# Error: VCP2000 ALU.v : (8, 11): Syntax error. Unexpected token: always[_ALWAYS]. Expected tokens: 'function' , 'task' , 'timeprecision' , 'timeunit' , 'const' ... .
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work ALU $dsn/src/ALU.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 ALU.v : (1, 8): Syntax error. Unexpected token: (. Expected tokens: 'automatic' , 'static' , 'full_case' , 'parallel_case' , 'parallel_case full_case' ... .
+# Error: VCP2000 ALU.v : (7, 11): Syntax error. Unexpected token: output[_OUTPUT]. Expected tokens: 'function' , 'task' , 'timeprecision' , 'timeunit' , 'const' ... .
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work ALU $dsn/src/ALU.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2020 ALU.v : (20, 12): case/x/z...endcase pair(s) mismatch detected. 1 <endcase> tokens are missing.
+# Error: VCP2020 ALU.v : (20, 12): module/macromodule...endmodule pair(s) mismatch detected. 1 <endmodule> tokens are missing.
+# Error: VCP2000 ALU.v : (20, 12): Syntax error. Unexpected token: end[_END]. Expected tokens: 'endcase' , ''' , '(' , '{' , 'default' ... .
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work ALU $dsn/src/ALU.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2020 ALU.v : (20, 12): case/x/z...endcase pair(s) mismatch detected. 1 <endcase> tokens are missing.
+# Error: VCP2020 ALU.v : (20, 12): module/macromodule...endmodule pair(s) mismatch detected. 1 <endmodule> tokens are missing.
+# Error: VCP2000 ALU.v : (20, 12): Syntax error. Unexpected token: end[_END]. Expected tokens: 'endcase' , ''' , '(' , '{' , 'default' ... .
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work ALU $dsn/src/ALU.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2020 ALU.v : (23, 1): module/macromodule...endmodule pair(s) mismatch detected. 1 <endmodule> tokens are missing.
+# Error: VCP2000 ALU.v : (23, 1): Syntax error. Unexpected token: non-printable: \x0. Expected tokens: ':' , '#' , ''' , '(' , ';' ... .
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work ALU $dsn/src/ALU.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Unit top modules: ALU.
+# $root top modules: ALU.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+# Design: Design ALU already active.
+# 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+ALU ALU
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 2.7 [s]
+# SLP: Finished : 2.7 [s]
+# SLP: 0 primitives and 2 (100.00%) other processes in SLP
+# SLP: 5 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 2.8 [s].
+# KERNEL: SLP loading done - time: 0.3 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5214 kB (elbread=1023 elab2=4101 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\ALU1\ALU\src\wave.asdb
+#  5:02 PM, Friday, December 18, 2015
+#  Simulation has been initialized
+#  Selected Top-Level: ALU (ALU)
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# KERNEL: Error: KERNEL_0166 "/ALU/in1" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/in1 with formula 1111111111111111111111111111111.
+# KERNEL: Error: KERNEL_0166 "/ALU/in2" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/in2 with formula 1111111111111111111111111111111.
+# KERNEL: Error: KERNEL_0166 "/ALU/in2" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/in2 with formula 1111111111111111111111111111111.
+# KERNEL: Error: KERNEL_0166 "/ALU/in2" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/in2 with formula 1111111111111111111111111111111.
+# KERNEL: Error: KERNEL_0166 "/ALU/in1" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/in1 with formula 1111111111111111111111111111111.
+# KERNEL: Error: KERNEL_0166 "/ALU/in1" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/in1 with formula 1111111111111111111111111111111.
+# KERNEL: Error: KERNEL_0166 "/ALU/in2" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/in2 with formula 1111111111111111111111111111111.
+# KERNEL: Error: KERNEL_0166 "/ALU/in2" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/in2 with formula 1111111111111111111111111111111.
+# KERNEL: Error: KERNEL_0166 "/ALU/in1" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/in1 with formula 0 0 fs, 1 50000000 fs -r 100000000 fs.
+# KERNEL: Error: KERNEL_0166 "/ALU/in1" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/in1 with formula 0 0 fs, 1 50000000 fs -r 100000000 fs.
+# KERNEL: Error: KERNEL_0166 "/ALU/in1" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/in1 with formula 0 0 fs, 1 50000000 fs -r 100000000 fs.
+# KERNEL: Error: KERNEL_0166 "/ALU/in2" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/in2 with formula 1111111111111111111111111111111.
+# KERNEL: Error: KERNEL_0166 "/ALU/in1" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/in1 with formula 0 0 fs, 1 50000000 fs -r 100000000 fs.
+# KERNEL: Error: KERNEL_0166 "/ALU/in1" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/in1 with formula 0 0 fs, 1 50000000 fs -r 100000000 fs.
+# KERNEL: Error: KERNEL_0166 "/ALU/in1" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/in1 with formula 0 0 fs, 1 50000000 fs -r 100000000 fs.
+# KERNEL: Error: KERNEL_0166 "/ALU/in1" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/in1 with formula 0 0 fs, 1 50000000 fs -r 100000000 fs.
+# KERNEL: Error: KERNEL_0166 "/ALU/in1" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/in1 with formula 1.
+# KERNEL: Error: KERNEL_0166 "/ALU/in2" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/in2 with formula 1.
+# KERNEL: Error: KERNEL_0166 "/ALU/ctrl" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/ctrl with formula 0.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# KERNEL: Error: KERNEL_0166 "/ALU/in2" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/in2 with formula 1.
+# KERNEL: Error: KERNEL_0166 "/ALU/ctrl" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/ctrl with formula 0.
+# KERNEL: Error: KERNEL_0166 "/ALU/ctrl" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/ctrl with formula 0.
+# KERNEL: Error: KERNEL_0166 "/ALU/ctrl" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/ctrl with formula 0.
+run @500ns
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# KERNEL: Error: KERNEL_0166 "/ALU/in1" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/in1 with formula 1.
+# KERNEL: Error: KERNEL_0166 "/ALU/in1" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/in1 with formula 1.
+# KERNEL: Error: KERNEL_0166 "/ALU/in1" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/in1 with formula 1.
+# KERNEL: Error: KERNEL_0166 "/ALU/in1" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU/in1 with formula 0.
+# KERNEL: Error: KERNEL_0166 "/ALU/in1" does not have write access. Use switch +access +w_nets for this region.
+# Error: Cannot force signal /ALU

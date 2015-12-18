@@ -1,24 +1,47 @@
 MESSAGE "Pass 1. Scanning modules hierarchy."
 MESSAGE_SP VCP2113 "Module \$root found in current working library."
 BEGINPROGRESS Compiling...
+UPDATEPROGRESS 3
+UPDATEPROGRESS 7
+UPDATEPROGRESS 11
+UPDATEPROGRESS 15
+UPDATEPROGRESS 19
+UPDATEPROGRESS 23
+UPDATEPROGRESS 27
+UPDATEPROGRESS 31
 UPDATEPROGRESS 35
 MESSAGE "Pass 2. Processing instantiations."
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol L0 has not been declared in module mux_2x1_structural." "C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/2-1mux structurally .v" 4 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol L2 has not been declared in module mux_2x1_structural." "C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/2-1mux structurally .v" 5 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol L1 has not been declared in module mux_2x1_structural." "C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/2-1mux structurally .v" 6 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol n0 has not been declared in module mux_8x1_structural." "C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/8-1mux structurally.v" 4 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol n1 has not been declared in module mux_8x1_structural." "C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/8-1mux structurally.v" 5 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol n2 has not been declared in module mux_8x1_structural." "C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/8-1mux structurally.v" 6 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol L0 has not been declared in module mux_8x1_structural." "C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/8-1mux structurally.v" 7 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol L1 has not been declared in module mux_8x1_structural." "C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/8-1mux structurally.v" 8 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol L2 has not been declared in module mux_8x1_structural." "C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/8-1mux structurally.v" 9 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol L3 has not been declared in module mux_8x1_structural." "C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/8-1mux structurally.v" 10 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol L4 has not been declared in module mux_8x1_structural." "C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/8-1mux structurally.v" 11 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol L5 has not been declared in module mux_8x1_structural." "C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/8-1mux structurally.v" 12 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol L6 has not been declared in module mux_8x1_structural." "C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/8-1mux structurally.v" 13 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol L7 has not been declared in module mux_8x1_structural." "C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/8-1mux structurally.v" 14 1
 UPDATEPROGRESS 45
 MESSAGE "Pass 3. Processing behavioral statements."
 UPDATEPROGRESS 80
 MESSAGE "Running Optimizer."
 MESSAGE "ELB/DAG code generating."
 MESSAGE_SP VCP2113 "Module \$root found in current working library."
-MESSAGE_SP VCP2113 "Module InstructionsMemory found in current working library."
-MESSAGE_SP VCP2113 "Module ControlUnit found in current working library."
-MESSAGE_SP VCP2113 "Module DataMemory_tb found in current working library."
-MESSAGE_SP VCP2113 "Module mux_2x1_behavioral found in current working library."
-MESSAGE_SP VCP2113 "Module mux_2x1_structural found in current working library."
-MESSAGE_SP VCP2113 "Module mux_8x1_structural found in current working library."
-MESSAGE_SP VCP2113 "Module SignExtend found in current working library."
+UPDATEPROGRESS 82
+UPDATEPROGRESS 84
+UPDATEPROGRESS 86
+UPDATEPROGRESS 88
 UPDATEPROGRESS 90
+UPDATEPROGRESS 92
+UPDATEPROGRESS 94
+UPDATEPROGRESS 96
+UPDATEPROGRESS 98
 UPDATEPROGRESS 100
-MESSAGE "Unit top modules: RegisterFile."
+MESSAGE "Unit top modules: InstructionsMemory ControlUnit mux_2x1_behavioral mux_2x1_structural mux_8x1_structural SignExtend RegisterFile DataMemory_tb."
 MESSAGE "$root top modules: InstructionsMemory ControlUnit DataMemory_tb mux_2x1_behavioral mux_2x1_structural mux_8x1_structural SignExtend RegisterFile."
 ENDPROGRESS Compiling...
 SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 0[s]."

@@ -1,1 +1,0 @@
- -u "C:\Aldec\Active-HDL 9.1_2\bin/systf.dll" -v2k5  "C:\Users\Hamdy\Source\Repos\MIPS-SC\OurNiceCoProject\DataMemory\src\ControlUnit.v"  -cs  -g 5  -r -li "C:\Users\Hamdy\Source\Repos\MIPS-SC\OurNiceCoProject\DataMemory\compile\DataMemory.epr" -p "C:\Users\Hamdy\Source\Repos\MIPS-SC\OurNiceCoProject\DataMemory" 

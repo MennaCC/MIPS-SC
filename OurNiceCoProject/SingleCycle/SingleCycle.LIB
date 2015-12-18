@@ -1,0 +1,97 @@
+timestamp=1450447509646
+
+[$root]
+A/$root=22|""|0|1*116227
+BinI32/$root=3*62416
+Version=9.1.2353.4205  (Windows)|00000012789cd3cd5108cecc4bcf4975ae4cce4955d0f5370200393305da
+
+[ControlUnit]
+A/ControlUnit=22|./src/ControlUnit.v|1|1*103222
+BinI32/ControlUnit=3*57523
+P/~emb=540,912,1627,1825
+R=./src/ControlUnit.v|1
+Version=9.1.2353.4205  (Windows)|00000012789cd3cd5108cecc4bcf4975ae4cce4955d0f5370200393305da
+
+[DataMemory]
+A/DataMemory=22|./src/DataMemory.v|1|1*99889
+BinI32/DataMemory=3*55503
+P/~emb=238,508,693,782
+R=./src/DataMemory.v|1
+Version=9.1.2353.4205  (Windows)|00000012789cd3cd5108cecc4bcf4975ae4cce4955d0f5370200393305da
+
+[DataMemory_tb]
+A/DataMemory_tb=22|./src/TestBench/DataMemory_TB.v|22|1*114097
+BinI32/DataMemory_tb=3*61655
+P/~emb=90,331,498,647
+R=./src/TestBench/DataMemory_TB.v|22
+Version=9.1.2353.4205  (Windows)|00000012789cd3cd5108cecc4bcf4975ae4cce4955d0f5370200393305da
+
+[InstructionsMemory]
+A/InstructionsMemory=22|./src/InstructionMemory.v|1|1*101735
+BinI32/InstructionsMemory=3*56606
+P/~emb=175,437,587,660
+R=./src/InstructionMemory.v|1
+Version=9.1.2353.4205  (Windows)|00000012789cd3cd5108cecc4bcf4975ae4cce4955d0f5370200393305da
+
+[RegisterFile]
+A/RegisterFile=22|./src/RegisterFile.v|1|1*116713
+BinI32/RegisterFile=3*62555
+P/~emb=323,527,741,852
+R=./src/RegisterFile.v|1
+Version=9.1.2353.4205  (Windows)|00000012789cd3cd5108cecc4bcf4975ae4cce4955d0f5370200393305da
+
+[SignExtend]
+A/SignExtend=22|./src/SignExtend.v|1|1*112777
+BinI32/SignExtend=3*60900
+P/~emb=163,328,477,559
+R=./src/SignExtend.v|1
+Version=9.1.2353.4205  (Windows)|00000012789cd3cd5108cecc4bcf4975ae4cce4955d0f5370200393305da
+
+[mux_2x1_behavioral]
+A/mux_2x1_behavioral=22|./src/2-1mux behaviorally.v|1|1*105552
+BinI32/mux_2x1_behavioral=3*60225
+P/~emb=187,355,495,558
+R=./src/2-1mux behaviorally.v|1
+Version=9.1.2353.4205  (Windows)|00000012789cd3cd5108cecc4bcf4975ae4cce4955d0f5370200393305da
+
+[mux_2x1_structural]
+A/mux_2x1_structural=22|./src/2-1mux structurally .v|1|1*106708
+BinI32/mux_2x1_structural=3*60596
+P/~emb=183,366,498,639
+R=./src/2-1mux structurally .v|1
+Version=9.1.2353.4205  (Windows)|00000012789cd3cd5108cecc4bcf4975ae4cce4955d0f5370200393305da
+
+[mux_8x1_structural]
+A/mux_8x1_structural=22|./src/8-1mux structurally.v|1|1*108439
+BinI32/mux_8x1_structural=3*60748
+P/~emb=399,625,814,1108
+R=./src/8-1mux structurally.v|1
+Version=9.1.2353.4205  (Windows)|00000012789cd3cd5108cecc4bcf4975ae4cce4955d0f5370200393305da
+
+[~A]
+C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/DataMemory.v=0*63786*64371
+C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/DataMemory.v_InstructionMemory.v_ControlUnit.v=0*4609*6013
+C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/DataMemory.v_InstructionMemory.v_ControlUnit.v_2-1mux behaviorally.v_2-1mux structurally .v_8-1mux structurally.v_SignExtend.v_DataMemory_TB.v=0*98561*100845
+C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/DataMemory.v_InstructionMemory.v_ControlUnit.v_DataMemory_TB.v=0*48328*49972
+C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/RegisterFile.v=0*102967*103538
+LastVerilogToplevel=RegisterFile
+ModifyID=836
+Version=73
+
+[~MFT]
+0=135|0SingleCycle.mgf|103538|23373
+1=137|1SingleCycle.mgf|116713|99889
+3=137|3SingleCycle.mgf|62555|55503
+
+[~U]
+$root=12|0*101633|
+ControlUnit=12|0*91385||0x90
+DataMemory=12|0*89571||0x80
+DataMemory_tb=12|0*97723||0x90
+InstructionsMemory=12|0*90551||0x90
+RegisterFile=12|0*101895||0x90
+SignExtend=12|0*96959||0x90
+mux_2x1_behavioral=12|0*94263||0x90
+mux_2x1_structural=12|0*94987||0x90
+mux_8x1_structural=12|0*95738||0x90
+

@@ -1,0 +1,101 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=SingleCycle
+
+[Library]
+SingleCycle=.\SingleCycle.LIB
+
+[Settings]
+AccessRead=1
+AccessReadWrite=1
+AccessACCB=1
+AccessACCR=1
+AccessReadWriteSLP=1
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+FLOWTOOLS=NONE
+REFRESH_FLOW=1
+FAMILY=
+IMPL_TOOL=
+SYNTH_TOOL=
+CDebugMacro=$dsn/compile/run_cdebug.do
+CDebugWatchList=
+fileopenfolder=C:\Users\Hamdy\Source\Repos\MIPS-SC\OurNiceCoProject\SingleCycle\src
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+SingleCycle=.
+Active_lib=
+
+[Folders]
+Name3=Makefiles
+Directory3=C:\Users\Hamdy\Source\Repos\MIPS-SC\OurNiceCoProject\SingleCycle\
+Extension3=mak
+Name4=Memory
+Directory4=C:\Users\Hamdy\Source\Repos\MIPS-SC\OurNiceCoProject\SingleCycle\src
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=C:\Users\Hamdy\Source\Repos\MIPS-SC\OurNiceCoProject\SingleCycle\
+Extension5=dll
+Name6=PDF
+Directory6=C:\Users\Hamdy\Source\Repos\MIPS-SC\OurNiceCoProject\SingleCycle\
+Extension6=pdf
+Name7=HTML
+Directory7=C:\Users\Hamdy\Source\Repos\MIPS-SC\OurNiceCoProject\SingleCycle\
+Extension7=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+
+[Files.Data]
+.\src\DataMemory.v=Verilog Source Code
+.\src\InstructionMemory.v=Verilog Source Code
+.\src\ControlUnit.v=Verilog Source Code
+.\src\2-1mux behaviorally.v=Verilog Source Code
+.\src\2-1mux structurally .v=Verilog Source Code
+.\src\8-1mux structurally.v=Verilog Source Code
+.\src\SignExtend.v=Verilog Source Code
+.\compile\run_cdebug.do=Macro
+.\src\DataMem_wv.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\RegisterFile.v=Verilog Source Code
+.\src\TestBench\DataMemory_TB.v=Verilog Test Bench
+.\src\TestBench\DataMemory_TB_runtest.do=Macro
+
+[Groups]
+TestBench=1
+
+[Files]
+/DataMemory.v=-1
+/InstructionMemory.v=-1
+/ControlUnit.v=-1
+/2-1mux behaviorally.v=-1
+/2-1mux structurally .v=-1
+/8-1mux structurally.v=-1
+/SignExtend.v=-1
+/RegisterFile.v=-1
+/..\compile\run_cdebug.do=-1
+/DataMem_wv.asdb=-1
+/untitled.awc=-1
+/untitled.asdb=-1
+TestBench/DataMemory_TB.v=-1
+TestBench/DataMemory_TB_runtest.do=-1
+

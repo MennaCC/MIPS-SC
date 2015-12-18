@@ -1,7 +1,8 @@
 [Version]
 Version=9.1
 [Designs]
-datamemory=.\DataMemory\DataMemory.adf
+singlecycle=.\SingleCycle\SingleCycle.adf
+singlecycle_vhdl=.\SingleCycle_VHDL\SingleCycle_VHDL.adf
 [Browser]
 sort=order
 mode=none
@@ -9,4 +10,9 @@ mode=none
 order=1
 macro=
 [Expand]
-datamemory=1
+datamemory=0
+mips_sc=0
+singlecycle=1
+singlecycle_vhdl=0
+[Settings]
+Active=singlecycle

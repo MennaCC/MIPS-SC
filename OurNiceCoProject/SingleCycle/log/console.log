@@ -1,6 +1,10 @@
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
+<<<<<<< HEAD
 alog -O2 -sve  -work SingleCycle $dsn/src/ALU.v
+=======
+alog -O2 -sve  -work SingleCycle $dsn/src/ControlUnit.v
+>>>>>>> 0674eb9efa7b0d767a46b09b32e153904d772419
 # Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
 # Compile...
 # Pass 1. Scanning modules hierarchy.
@@ -11,13 +15,17 @@ alog -O2 -sve  -work SingleCycle $dsn/src/ALU.v
 # ELB/DAG code generating.
 # Info: VCP2113 Module \$root found in current working library.
 # Info: VCP2113 Module InstructionsMemory found in current working library.
+<<<<<<< HEAD
 # Info: VCP2113 Module ControlUnit found in current working library.
+=======
+>>>>>>> 0674eb9efa7b0d767a46b09b32e153904d772419
 # Info: VCP2113 Module DataMemory_tb found in current working library.
 # Info: VCP2113 Module mux_2x1_behavioral found in current working library.
 # Info: VCP2113 Module mux_2x1_structural found in current working library.
 # Info: VCP2113 Module mux_8x1_structural found in current working library.
 # Info: VCP2113 Module SignExtend found in current working library.
 # Info: VCP2113 Module RegisterFile found in current working library.
+<<<<<<< HEAD
 # Info: VCP2113 Module full_adder found in current working library.
 # Info: VCP2113 Module and_gate found in current working library.
 # Info: VCP2113 Module shift_left found in current working library.
@@ -445,3 +453,10 @@ alog -O2 -sve  -work SingleCycle $dsn/src/ALU.v
 # Unit top modules: ALU.
 # $root top modules: InstructionsMemory ControlUnit DataMemory_tb mux_2x1_behavioral mux_2x1_structural mux_8x1_structural SignExtend RegisterFile ALU full_adder and_gate shift_left alu_control shift_right.
 # Compile succes
+=======
+# Info: VCP2113 Module ALU found in current working library.
+# Unit top modules: ControlUnit.
+# $root top modules: InstructionsMemory ControlUnit DataMemory_tb mux_2x1_behavioral mux_2x1_structural mux_8x1_structural SignExtend RegisterFile ALU.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+>>>>>>> 0674eb9efa7b0d767a46b09b32e153904d772419

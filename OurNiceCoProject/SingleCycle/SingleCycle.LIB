@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 timestamp=1450531230527
 
 [$root]
@@ -9,13 +10,26 @@ Version=9.1.2353.4205  (Windows)|00000012789cd3cd5108cecc4bcf4975ae4cce4955d0f53
 A/ALU=22|./src/ALU.v|1|1*241307
 BinI32/ALU=3*106584
 P/~emb=275,497,855,959
+=======
+timestamp=1450465255309
+
+[$root]
+A/$root=22|""|0|1*185865
+BinI32/$root=3*93427
+Version=9.1.2353.4205  (Windows)|00000012789cd3cd5108cecc4bcf4975ae4cce4955d0f5370200393305da
+
+[ALU]
+A/ALU=22|./src/ALU.v|1|1*184296
+BinI32/ALU=3*92289
+P/~emb=223,424,744,849
+>>>>>>> 0674eb9efa7b0d767a46b09b32e153904d772419
 R=./src/ALU.v|1
 Version=9.1.2353.4205  (Windows)|00000012789cd3cd5108cecc4bcf4975ae4cce4955d0f5370200393305da
 
 [ControlUnit]
-A/ControlUnit=22|./src/ControlUnit.v|1|1*160329
-BinI32/ControlUnit=3*81443
-P/~emb=540,912,1627,1825
+A/ControlUnit=22|./src/ControlUnit.v|1|1*186367
+BinI32/ControlUnit=3*93566
+P/~emb=473,802,1308,1455
 R=./src/ControlUnit.v|1
 Version=9.1.2353.4205  (Windows)|00000012789cd3cd5108cecc4bcf4975ae4cce4955d0f5370200393305da
 
@@ -48,9 +62,9 @@ R=./src/RegisterFile.v|1
 Version=9.1.2353.4205  (Windows)|00000012789cd3cd5108cecc4bcf4975ae4cce4955d0f5370200393305da
 
 [SignExtend]
-A/SignExtend=22|./src/SignExtend.v|1|1*169884
-BinI32/SignExtend=3*84803
-P/~emb=163,328,477,559
+A/SignExtend=22|./src/SignExtend.v|1|1*182631
+BinI32/SignExtend=3*91597
+P/~emb=134,295,437,519
 R=./src/SignExtend.v|1
 Version=9.1.2353.4205  (Windows)|00000012789cd3cd5108cecc4bcf4975ae4cce4955d0f5370200393305da
 
@@ -118,6 +132,7 @@ C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/DataMemory.
 C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/DataMemory.v_InstructionMemory.v_ControlUnit.v_2-1mux behaviorally.v_2-1mux structurally .v_8-1mux structurally.v_SignExtend.v_RegisterFile.v_DataMemory_TB.v=0*128132*130623
 C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/DataMemory.v_InstructionMemory.v_ControlUnit.v_DataMemory_TB.v=0*48328*49972
 C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/RegisterFile.v=0*102967*103538
+<<<<<<< HEAD
 C:/Users/Mohammed/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/ALU.v=0*212678*213339
 C:/Users/Mohammed/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/alu_control.v=0*186325*187058
 C:/Users/Mohammed/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/and_gate.v=0*170445*170871
@@ -138,14 +153,36 @@ Version=73
 $root=12|0*211056|
 ALU=12|0*211382||0x90
 ControlUnit=12|0*133534||0x90
+=======
+C:/Users/dell_pc/Desktop/MIPS-SC/OurNiceCoProject/SingleCycle/src/ALU.v=0*157950*158557
+C:/Users/dell_pc/Desktop/MIPS-SC/OurNiceCoProject/SingleCycle/src/ControlUnit.v=0*161554*162489
+C:/Users/dell_pc/Desktop/MIPS-SC/OurNiceCoProject/SingleCycle/src/SignExtend.v=0*155488*155974
+LastVerilogToplevel=ControlUnit
+ModifyID=1336
+Version=73
+
+[~MFT]
+0=198|0SingleCycle.mgf|162489|29657
+1=218|1SingleCycle.mgf|186367|168353
+3=218|3SingleCycle.mgf|93566|87363
+
+[~U]
+$root=12|0*159077|
+ALU=12|0*156795||0x90
+ControlUnit=12|0*159355||0x90
+>>>>>>> 0674eb9efa7b0d767a46b09b32e153904d772419
 DataMemory=12|0*131720||0x80
 DataMemory_tb=12|0*142143||0x90
 InstructionsMemory=12|0*132700||0x90
 RegisterFile=12|0*139872||0x90
+<<<<<<< HEAD
 SignExtend=12|0*139108||0x90
 alu_control=12|0*184796||0x90
 and_gate=12|0*169811||0x90
 full_adder=12|0*209019||0x90
+=======
+SignExtend=12|0*154771||0x90
+>>>>>>> 0674eb9efa7b0d767a46b09b32e153904d772419
 mux_2x1_behavioral=12|0*136412||0x90
 mux_2x1_structural=12|0*137136||0x90
 mux_8x1_structural=12|0*137887||0x90

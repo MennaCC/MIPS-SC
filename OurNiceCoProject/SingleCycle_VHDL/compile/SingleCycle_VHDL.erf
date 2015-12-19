@@ -1,6 +1,0 @@
-WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available." 
-MESSAGE "File: C:\Users\Hamdy\Source\Repos\MIPS-SC\OurNiceCoProject\SingleCycle_VHDL\src\DataMemory.vhd" 
-WARNING COMP96_0003: "Source file "C:\Users\Hamdy\Source\Repos\MIPS-SC\OurNiceCoProject\SingleCycle_VHDL\src\DataMemory.vhd" is empty." 
-MESSAGE "File: C:\Users\Hamdy\Source\Repos\MIPS-SC\OurNiceCoProject\SingleCycle_VHDL\src\InstructionsMemory.vhd" 
-WARNING COMP96_0003: "Source file "C:\Users\Hamdy\Source\Repos\MIPS-SC\OurNiceCoProject\SingleCycle_VHDL\src\InstructionsMemory.vhd" is empty." 
-SUCCESS "Compile success 0 Errors 2 Warnings  Analysis time :  0.0 [ms]" 

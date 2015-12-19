@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
- -erf "C:\Users\Mohammed\Source\Repos\MIPS-SC\OurNiceCoProject\SingleCycle\compile\SingleCycle.erf" -work SingleCycle -lc C:/Users/Mohammed/Source/Repos/MIPS-SC/OurNiceCoProject/library.cfg -fl C:/Users/Mohammed/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/projlib.cfg -o C:/Users/Mohammed/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/compile -l "SingleCycle" -sve   -O2
-=======
- -erf "C:\Users\dell_pc\Desktop\MIPS-SC\OurNiceCoProject\SingleCycle\compile\SingleCycle.erf" -work SingleCycle -lc C:/Users/dell_pc/Desktop/MIPS-SC/OurNiceCoProject/library.cfg -fl C:/Users/dell_pc/Desktop/MIPS-SC/OurNiceCoProject/SingleCycle/projlib.cfg -o C:/Users/dell_pc/Desktop/MIPS-SC/OurNiceCoProject/SingleCycle/compile -l "SingleCycle" -sve   -O2
->>>>>>> 0674eb9efa7b0d767a46b09b32e153904d772419
-=======
- -erf "C:\Users\dell_pc\Desktop\MIPS-SC\OurNiceCoProject\SingleCycle\compile\SingleCycle.erf" -work SingleCycle -lc C:/Users/dell_pc/Desktop/MIPS-SC/OurNiceCoProject/library.cfg -fl C:/Users/dell_pc/Desktop/MIPS-SC/OurNiceCoProject/SingleCycle/projlib.cfg -o C:/Users/dell_pc/Desktop/MIPS-SC/OurNiceCoProject/SingleCycle/compile -l "SingleCycle" -sve   -O2
->>>>>>> 0674eb9efa7b0d767a46b09b32e153904d772419

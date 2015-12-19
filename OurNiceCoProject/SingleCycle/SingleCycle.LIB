@@ -1,14 +1,14 @@
-timestamp=1450454239651
+timestamp=1450531230527
 
 [$root]
-A/$root=22|""|0|1*156494
-BinI32/$root=3*79284
+A/$root=22|""|0|1*240741
+BinI32/$root=3*106445
 Version=9.1.2353.4205  (Windows)|00000012789cd3cd5108cecc4bcf4975ae4cce4955d0f5370200393305da
 
 [ALU]
-A/ALU=22|./src/ALU.v|1|1*173296
-BinI32/ALU=3*86478
-P/~emb=223,424,744,849
+A/ALU=22|./src/ALU.v|1|1*241307
+BinI32/ALU=3*106584
+P/~emb=275,497,855,959
 R=./src/ALU.v|1
 Version=9.1.2353.4205  (Windows)|00000012789cd3cd5108cecc4bcf4975ae4cce4955d0f5370200393305da
 
@@ -54,6 +54,27 @@ P/~emb=163,328,477,559
 R=./src/SignExtend.v|1
 Version=9.1.2353.4205  (Windows)|00000012789cd3cd5108cecc4bcf4975ae4cce4955d0f5370200393305da
 
+[alu_control]
+A/alu_control=22|./src/alu_control.v|1|1*214704
+BinI32/alu_control=3*100738
+P/~emb=238,539,966,1106
+R=./src/alu_control.v|1
+Version=9.1.2353.4205  (Windows)|00000012789cd3cd5108cecc4bcf4975ae4cce4955d0f5370200393305da
+
+[and_gate]
+A/and_gate=22|./src/and_gate.v|1|1*202073
+BinI32/and_gate=3*92342
+P/~emb=156,301,436,499
+R=./src/and_gate.v|1
+Version=9.1.2353.4205  (Windows)|00000012789cd3cd5108cecc4bcf4975ae4cce4955d0f5370200393305da
+
+[full_adder]
+A/full_adder=22|./src/fulladder.v|1|1*238488
+BinI32/full_adder=3*106301
+P/~emb=255,452,656,798
+R=./src/fulladder.v|1
+Version=9.1.2353.4205  (Windows)|00000012789cd3cd5108cecc4bcf4975ae4cce4955d0f5370200393305da
+
 [mux_2x1_behavioral]
 A/mux_2x1_behavioral=22|./src/2-1mux behaviorally.v|1|1*162659
 BinI32/mux_2x1_behavioral=3*84127
@@ -75,6 +96,20 @@ P/~emb=399,625,814,1108
 R=./src/8-1mux structurally.v|1
 Version=9.1.2353.4205  (Windows)|00000012789cd3cd5108cecc4bcf4975ae4cce4955d0f5370200393305da
 
+[shift_left]
+A/shift_left=22|./src/module_shift_left.v|1|1*218914
+BinI32/shift_left=3*103280
+P/~emb=175,338,488,576
+R=./src/module_shift_left.v|1
+Version=9.1.2353.4205  (Windows)|00000012789cd3cd5108cecc4bcf4975ae4cce4955d0f5370200393305da
+
+[shift_right]
+A/shift_right=22|./src/shift_right_logical.v|1|1*220739
+BinI32/shift_right=3*103939
+P/~emb=177,342,492,580
+R=./src/shift_right_logical.v|1
+Version=9.1.2353.4205  (Windows)|00000012789cd3cd5108cecc4bcf4975ae4cce4955d0f5370200393305da
+
 [~A]
 C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/DataMemory.v=0*63786*64371
 C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/DataMemory.v_InstructionMemory.v_ControlUnit.v=0*4609*6013
@@ -83,25 +118,37 @@ C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/DataMemory.
 C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/DataMemory.v_InstructionMemory.v_ControlUnit.v_2-1mux behaviorally.v_2-1mux structurally .v_8-1mux structurally.v_SignExtend.v_RegisterFile.v_DataMemory_TB.v=0*128132*130623
 C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/DataMemory.v_InstructionMemory.v_ControlUnit.v_DataMemory_TB.v=0*48328*49972
 C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/RegisterFile.v=0*102967*103538
-LastVerilogToplevel=DataMemory_tb
-ModifyID=1221
+C:/Users/Mohammed/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/ALU.v=0*212678*213339
+C:/Users/Mohammed/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/alu_control.v=0*186325*187058
+C:/Users/Mohammed/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/and_gate.v=0*170445*170871
+C:/Users/Mohammed/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/fulladder.v=0*209953*210508
+C:/Users/Mohammed/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/module_shift_left.v=0*191460*191943
+C:/Users/Mohammed/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/shift_2.v=0*183467*183940
+C:/Users/Mohammed/Source/Repos/MIPS-SC/OurNiceCoProject/SingleCycle/src/shift_right_logical.v=0*193588*194089
+LastVerilogToplevel=ALU
+ModifyID=1835
 Version=73
 
 [~MFT]
-0=174|0SingleCycle.mgf|145718|26683
-1=198|1SingleCycle.mgf|174865|156494
-3=198|3SingleCycle.mgf|87619|79284
+0=328|0SingleCycle.mgf|213339|50110
+1=305|1SingleCycle.mgf|241307|215007
+3=305|3SingleCycle.mgf|106584|95908
 
 [~U]
-$root=12|0*131442|
-ALU=12|0*140988||0x90
+$root=12|0*211056|
+ALU=12|0*211382||0x90
 ControlUnit=12|0*133534||0x90
 DataMemory=12|0*131720||0x80
 DataMemory_tb=12|0*142143||0x90
 InstructionsMemory=12|0*132700||0x90
 RegisterFile=12|0*139872||0x90
 SignExtend=12|0*139108||0x90
+alu_control=12|0*184796||0x90
+and_gate=12|0*169811||0x90
+full_adder=12|0*209019||0x90
 mux_2x1_behavioral=12|0*136412||0x90
 mux_2x1_structural=12|0*137136||0x90
 mux_8x1_structural=12|0*137887||0x90
+shift_left=12|0*190718||0x90
+shift_right=12|0*192841||0x90
 

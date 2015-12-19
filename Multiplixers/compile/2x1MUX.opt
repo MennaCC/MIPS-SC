@@ -1,1 +1,0 @@
- -u "C:\Aldec\Active-HDL 9.1\bin/systf.dll" -v2k5  "c:\My_Designs\EsraaWorkSpace\2x1MUX\src\8-1mux structurally.v"  -cs  -g 5  -r -li "c:\My_Designs\EsraaWorkSpace\2x1MUX\compile\2x1MUX.epr" -p "c:\My_Designs\EsraaWorkSpace\2x1MUX" 

@@ -62,3 +62,4 @@ Extension7=
 [Files.Data]
 .\src\DataMemory.vhd=VHDL Source Code
 .\src\InstructionsMemory.vhd=VHDL Source Code
+

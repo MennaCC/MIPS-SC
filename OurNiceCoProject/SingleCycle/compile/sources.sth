@@ -1,3 +1,7 @@
 [Files List]
-C:\Aldec\Active-HDL 9.1_2\Vlib\std/src/standard.vhd=S
-C:\Users\Hamdy\Source\Repos\MIPS-SC\OurNiceCoProject\SingleCycle/src/ALU.v=S
+C:\Aldec\Active-HDL 9.1\Vlib\std/src/standard.vhd=S
+<<<<<<< HEAD
+C:\Users\Mohammed\Source\Repos\MIPS-SC\OurNiceCoProject\SingleCycle/src/fulladder.v=S
+=======
+C:\Users\dell_pc\Desktop\MIPS-SC\OurNiceCoProject\SingleCycle/src/ALU.v=S
+>>>>>>> 0674eb9efa7b0d767a46b09b32e153904d772419

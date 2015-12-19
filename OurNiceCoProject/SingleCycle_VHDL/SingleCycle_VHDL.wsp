@@ -1,0 +1,8 @@
+[COMPILESTATUS|.\src\DataMemory.vhd]
+FileTimeLow=30488859
+Status=Warning
+
+[COMPILESTATUS|.\src\InstructionsMemory.vhd]
+FileTimeLow=30488858
+Status=Warning
+

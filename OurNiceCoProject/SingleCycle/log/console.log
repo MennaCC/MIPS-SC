@@ -1,0 +1,462 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+<<<<<<< HEAD
+alog -O2 -sve  -work SingleCycle $dsn/src/ALU.v
+=======
+alog -O2 -sve  -work SingleCycle $dsn/src/ControlUnit.v
+>>>>>>> 0674eb9efa7b0d767a46b09b32e153904d772419
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module InstructionsMemory found in current working library.
+<<<<<<< HEAD
+# Info: VCP2113 Module ControlUnit found in current working library.
+=======
+>>>>>>> 0674eb9efa7b0d767a46b09b32e153904d772419
+# Info: VCP2113 Module DataMemory_tb found in current working library.
+# Info: VCP2113 Module mux_2x1_behavioral found in current working library.
+# Info: VCP2113 Module mux_2x1_structural found in current working library.
+# Info: VCP2113 Module mux_8x1_structural found in current working library.
+# Info: VCP2113 Module SignExtend found in current working library.
+# Info: VCP2113 Module RegisterFile found in current working library.
+<<<<<<< HEAD
+# Info: VCP2113 Module full_adder found in current working library.
+# Info: VCP2113 Module and_gate found in current working library.
+# Info: VCP2113 Module shift_left found in current working library.
+# Info: VCP2113 Module alu_control found in current working library.
+# Unit top modules: ALU.
+# $root top modules: InstructionsMemory ControlUnit DataMemory_tb mux_2x1_behavioral mux_2x1_structural mux_8x1_structural SignExtend RegisterFile ALU full_adder and_gate shift_left alu_control.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work SingleCycle $dsn/src/module_shift_left.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module InstructionsMemory found in current working library.
+# Info: VCP2113 Module ControlUnit found in current working library.
+# Info: VCP2113 Module DataMemory_tb found in current working library.
+# Info: VCP2113 Module mux_2x1_behavioral found in current working library.
+# Info: VCP2113 Module mux_2x1_structural found in current working library.
+# Info: VCP2113 Module mux_8x1_structural found in current working library.
+# Info: VCP2113 Module SignExtend found in current working library.
+# Info: VCP2113 Module RegisterFile found in current working library.
+# Info: VCP2113 Module ALU found in current working library.
+# Info: VCP2113 Module full_adder found in current working library.
+# Info: VCP2113 Module and_gate found in current working library.
+# Info: VCP2113 Module alu_control found in current working library.
+# Unit top modules: shift_left.
+# $root top modules: InstructionsMemory ControlUnit DataMemory_tb mux_2x1_behavioral mux_2x1_structural mux_8x1_structural SignExtend RegisterFile ALU full_adder and_gate shift_left alu_control.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work SingleCycle $dsn/src/shift_right_logical.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module InstructionsMemory found in current working library.
+# Info: VCP2113 Module ControlUnit found in current working library.
+# Info: VCP2113 Module DataMemory_tb found in current working library.
+# Info: VCP2113 Module mux_2x1_behavioral found in current working library.
+# Info: VCP2113 Module mux_2x1_structural found in current working library.
+# Info: VCP2113 Module mux_8x1_structural found in current working library.
+# Info: VCP2113 Module SignExtend found in current working library.
+# Info: VCP2113 Module RegisterFile found in current working library.
+# Info: VCP2113 Module ALU found in current working library.
+# Info: VCP2113 Module full_adder found in current working library.
+# Info: VCP2113 Module and_gate found in current working library.
+# Info: VCP2113 Module shift_left found in current working library.
+# Info: VCP2113 Module alu_control found in current working library.
+# Unit top modules: shift_right.
+# $root top modules: InstructionsMemory ControlUnit DataMemory_tb mux_2x1_behavioral mux_2x1_structural mux_8x1_structural SignExtend RegisterFile ALU full_adder and_gate shift_left alu_control shift_right.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w alu_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, using existing simulator library: 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# SLP: 0 primitives and 1 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 4 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5725 kB (elbread=1023 elab2=4612 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mohammed\Source\Repos\MIPS-SC\OurNiceCoProject\SingleCycle\src\wave.asdb
+#  10:54 AM, Saturday, December 19, 2015
+#  Simulation has been initialized
+#  Selected Top-Level: alu_control (alu_control)
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w shift_right
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.6 [s]
+# SLP: Finished : 0.6 [s]
+# SLP: 0 primitives and 1 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 3 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.7 [s].
+# KERNEL: SLP loading done - time: 0.1 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5722 kB (elbread=1023 elab2=4610 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mohammed\Source\Repos\MIPS-SC\OurNiceCoProject\SingleCycle\src\wave.asdb
+#  10:55 AM, Saturday, December 19, 2015
+#  Simulation has been initialized
+#  Selected Top-Level: shift_right (shift_right)
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+run @600ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w full_adder
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 5 (100.00%) primitives and 0 other processes in SLP
+# SLP: 0 signals in SLP and 8 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.1 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5722 kB (elbread=1023 elab2=4609 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mohammed\Source\Repos\MIPS-SC\OurNiceCoProject\SingleCycle\src\wave.asdb
+#  2:28 PM, Saturday, December 19, 2015
+#  Simulation has been initialized
+#  Selected Top-Level: full_adder (full_adder)
+endsim
+#  Simulation has been stopped
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w full_adder
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+alog -O2 -sve  -work SingleCycle $dsn/src/fulladder.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Warning: VCP2760 fulladder.v : (11, 1): Incompatible types at connection: \\2_#11 \ -> sum<wire>.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module InstructionsMemory found in current working library.
+# Info: VCP2113 Module ControlUnit found in current working library.
+# Info: VCP2113 Module DataMemory_tb found in current working library.
+# Info: VCP2113 Module mux_2x1_behavioral found in current working library.
+# Info: VCP2113 Module mux_2x1_structural found in current working library.
+# Info: VCP2113 Module mux_8x1_structural found in current working library.
+# Info: VCP2113 Module SignExtend found in current working library.
+# Info: VCP2113 Module RegisterFile found in current working library.
+# Info: VCP2113 Module ALU found in current working library.
+# Info: VCP2113 Module and_gate found in current working library.
+# Info: VCP2113 Module shift_left found in current working library.
+# Info: VCP2113 Module alu_control found in current working library.
+# Info: VCP2113 Module shift_right found in current working library.
+# Unit top modules: full_adder.
+# $root top modules: InstructionsMemory ControlUnit DataMemory_tb mux_2x1_behavioral mux_2x1_structural mux_8x1_structural SignExtend RegisterFile ALU full_adder and_gate shift_left alu_control shift_right.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 5 (100.00%) primitives and 0 other processes in SLP
+# SLP: 0 signals in SLP and 8 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.2 [s].
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5722 kB (elbread=1023 elab2=4609 kernel=89 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mohammed\Source\Repos\MIPS-SC\OurNiceCoProject\SingleCycle\src\wave.asdb
+#  2:30 PM, Saturday, December 19, 2015
+#  Simulation has been initialized
+#  Selected Top-Level: full_adder (full_adder)
+alog -O2 -sve  -work SingleCycle $dsn/src/fulladder.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Warning: VCP2760 fulladder.v : (11, 1): Incompatible types at connection: \\2_#11 \ -> sum<wire>.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module InstructionsMemory found in current working library.
+# Info: VCP2113 Module ControlUnit found in current working library.
+# Info: VCP2113 Module DataMemory_tb found in current working library.
+# Info: VCP2113 Module mux_2x1_behavioral found in current working library.
+# Info: VCP2113 Module mux_2x1_structural found in current working library.
+# Info: VCP2113 Module mux_8x1_structural found in current working library.
+# Info: VCP2113 Module SignExtend found in current working library.
+# Info: VCP2113 Module RegisterFile found in current working library.
+# Info: VCP2113 Module ALU found in current working library.
+# Info: VCP2113 Module and_gate found in current working library.
+# Info: VCP2113 Module shift_left found in current working library.
+# Info: VCP2113 Module alu_control found in current working library.
+# Info: VCP2113 Module shift_right found in current working library.
+# Unit top modules: full_adder.
+# $root top modules: InstructionsMemory ControlUnit DataMemory_tb mux_2x1_behavioral mux_2x1_structural mux_8x1_structural SignExtend RegisterFile ALU full_adder and_gate shift_left alu_control shift_right.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work SingleCycle $dsn/src/fulladder.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Warning: VCP2760 fulladder.v : (11, 1): Incompatible types at connection: \\2_#11 \ -> sum<wire>.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module InstructionsMemory found in current working library.
+# Info: VCP2113 Module ControlUnit found in current working library.
+# Info: VCP2113 Module DataMemory_tb found in current working library.
+# Info: VCP2113 Module mux_2x1_behavioral found in current working library.
+# Info: VCP2113 Module mux_2x1_structural found in current working library.
+# Info: VCP2113 Module mux_8x1_structural found in current working library.
+# Info: VCP2113 Module SignExtend found in current working library.
+# Info: VCP2113 Module RegisterFile found in current working library.
+# Info: VCP2113 Module ALU found in current working library.
+# Info: VCP2113 Module and_gate found in current working library.
+# Info: VCP2113 Module shift_left found in current working library.
+# Info: VCP2113 Module alu_control found in current working library.
+# Info: VCP2113 Module shift_right found in current working library.
+# Unit top modules: full_adder.
+# $root top modules: InstructionsMemory ControlUnit DataMemory_tb mux_2x1_behavioral mux_2x1_structural mux_8x1_structural SignExtend RegisterFile ALU full_adder and_gate shift_left alu_control shift_right.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work SingleCycle $dsn/src/fulladder.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module InstructionsMemory found in current working library.
+# Info: VCP2113 Module ControlUnit found in current working library.
+# Info: VCP2113 Module DataMemory_tb found in current working library.
+# Info: VCP2113 Module mux_2x1_behavioral found in current working library.
+# Info: VCP2113 Module mux_2x1_structural found in current working library.
+# Info: VCP2113 Module mux_8x1_structural found in current working library.
+# Info: VCP2113 Module SignExtend found in current working library.
+# Info: VCP2113 Module RegisterFile found in current working library.
+# Info: VCP2113 Module ALU found in current working library.
+# Info: VCP2113 Module and_gate found in current working library.
+# Info: VCP2113 Module shift_left found in current working library.
+# Info: VCP2113 Module alu_control found in current working library.
+# Info: VCP2113 Module shift_right found in current working library.
+# Unit top modules: full_adder.
+# $root top modules: InstructionsMemory ControlUnit DataMemory_tb mux_2x1_behavioral mux_2x1_structural mux_8x1_structural SignExtend RegisterFile ALU full_adder and_gate shift_left alu_control shift_right.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+endsim
+#  Simulation has been stopped
+alog -O2 -sve  -work SingleCycle $dsn/src/fulladder.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Warning: VCP2760 fulladder.v : (11, 1): Incompatible types at connection: \\2_#11 \ -> sum<wire>.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module InstructionsMemory found in current working library.
+# Info: VCP2113 Module ControlUnit found in current working library.
+# Info: VCP2113 Module DataMemory_tb found in current working library.
+# Info: VCP2113 Module mux_2x1_behavioral found in current working library.
+# Info: VCP2113 Module mux_2x1_structural found in current working library.
+# Info: VCP2113 Module mux_8x1_structural found in current working library.
+# Info: VCP2113 Module SignExtend found in current working library.
+# Info: VCP2113 Module RegisterFile found in current working library.
+# Info: VCP2113 Module ALU found in current working library.
+# Info: VCP2113 Module and_gate found in current working library.
+# Info: VCP2113 Module shift_left found in current working library.
+# Info: VCP2113 Module alu_control found in current working library.
+# Info: VCP2113 Module shift_right found in current working library.
+# Unit top modules: full_adder.
+# $root top modules: InstructionsMemory ControlUnit DataMemory_tb mux_2x1_behavioral mux_2x1_structural mux_8x1_structural SignExtend RegisterFile ALU full_adder and_gate shift_left alu_control shift_right.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work SingleCycle $dsn/src/fulladder.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Error: VCP2765 fulladder.v : (11, 12): OUTPUT/INOUT terminal of gate must be connected to a scalar net or a bit select of vector net: sum.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work SingleCycle $dsn/src/fulladder.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Error: VCP2765 fulladder.v : (12, 12): OUTPUT/INOUT terminal of gate must be connected to a scalar net or a bit select of vector net: sum.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve  -work SingleCycle $dsn/src/fulladder.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Warning: VCP2760 fulladder.v : (12, 1): Incompatible types at connection: \\2_#12 \ -> sumw<wire>.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module InstructionsMemory found in current working library.
+# Info: VCP2113 Module ControlUnit found in current working library.
+# Info: VCP2113 Module DataMemory_tb found in current working library.
+# Info: VCP2113 Module mux_2x1_behavioral found in current working library.
+# Info: VCP2113 Module mux_2x1_structural found in current working library.
+# Info: VCP2113 Module mux_8x1_structural found in current working library.
+# Info: VCP2113 Module SignExtend found in current working library.
+# Info: VCP2113 Module RegisterFile found in current working library.
+# Info: VCP2113 Module ALU found in current working library.
+# Info: VCP2113 Module and_gate found in current working library.
+# Info: VCP2113 Module shift_left found in current working library.
+# Info: VCP2113 Module alu_control found in current working library.
+# Info: VCP2113 Module shift_right found in current working library.
+# Unit top modules: full_adder.
+# $root top modules: InstructionsMemory ControlUnit DataMemory_tb mux_2x1_behavioral mux_2x1_structural mux_8x1_structural SignExtend RegisterFile ALU full_adder and_gate shift_left alu_control shift_right.
+# Compile success 0 Errors 1 Warnings  Analysis time: 1[s].
+# done
+alog -O2 -sve  -work SingleCycle $dsn/src/fulladder.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Warning: VCP2760 fulladder.v : (11, 1): Incompatible types at connection: \\1_#11 \ -> w1<wire>.
+# Warning: VCP2760 fulladder.v : (12, 1): Incompatible types at connection: \\2_#12 \ -> sumw<wire>.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module InstructionsMemory found in current working library.
+# Info: VCP2113 Module ControlUnit found in current working library.
+# Info: VCP2113 Module DataMemory_tb found in current working library.
+# Info: VCP2113 Module mux_2x1_behavioral found in current working library.
+# Info: VCP2113 Module mux_2x1_structural found in current working library.
+# Info: VCP2113 Module mux_8x1_structural found in current working library.
+# Info: VCP2113 Module SignExtend found in current working library.
+# Info: VCP2113 Module RegisterFile found in current working library.
+# Info: VCP2113 Module ALU found in current working library.
+# Info: VCP2113 Module and_gate found in current working library.
+# Info: VCP2113 Module shift_left found in current working library.
+# Info: VCP2113 Module alu_control found in current working library.
+# Info: VCP2113 Module shift_right found in current working library.
+# Unit top modules: full_adder.
+# $root top modules: InstructionsMemory ControlUnit DataMemory_tb mux_2x1_behavioral mux_2x1_structural mux_8x1_structural SignExtend RegisterFile ALU full_adder and_gate shift_left alu_control shift_right.
+# Compile success 0 Errors 2 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve  -work SingleCycle $dsn/src/ALU.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module InstructionsMemory found in current working library.
+# Info: VCP2113 Module ControlUnit found in current working library.
+# Info: VCP2113 Module DataMemory_tb found in current working library.
+# Info: VCP2113 Module mux_2x1_behavioral found in current working library.
+# Info: VCP2113 Module mux_2x1_structural found in current working library.
+# Info: VCP2113 Module mux_8x1_structural found in current working library.
+# Info: VCP2113 Module SignExtend found in current working library.
+# Info: VCP2113 Module RegisterFile found in current working library.
+# Info: VCP2113 Module full_adder found in current working library.
+# Info: VCP2113 Module and_gate found in current working library.
+# Info: VCP2113 Module shift_left found in current working library.
+# Info: VCP2113 Module alu_control found in current working library.
+# Info: VCP2113 Module shift_right found in current working library.
+# Unit top modules: ALU.
+# $root top modules: InstructionsMemory ControlUnit DataMemory_tb mux_2x1_behavioral mux_2x1_structural mux_8x1_structural SignExtend RegisterFile ALU full_adder and_gate shift_left alu_control shift_right.
+# Compile succes
+=======
+# Info: VCP2113 Module ALU found in current working library.
+# Unit top modules: ControlUnit.
+# $root top modules: InstructionsMemory ControlUnit DataMemory_tb mux_2x1_behavioral mux_2x1_structural mux_8x1_structural SignExtend RegisterFile ALU.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+>>>>>>> 0674eb9efa7b0d767a46b09b32e153904d772419

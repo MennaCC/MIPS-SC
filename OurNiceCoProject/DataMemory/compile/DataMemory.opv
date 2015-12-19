@@ -1,1 +1,0 @@
- -erf "C:\Users\Hamdy\Source\Repos\MIPS-SC\OurNiceCoProject\DataMemory\compile\DataMemory.erf" -work DataMemory -lc C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/library.cfg -fl C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/DataMemory/projlib.cfg -o C:/Users/Hamdy/Source/Repos/MIPS-SC/OurNiceCoProject/DataMemory/compile -l "DataMemory" -sve   -O2

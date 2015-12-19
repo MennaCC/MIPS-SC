@@ -1,0 +1,15 @@
+i<>.\src\TestBench\DataMemory_TB.v
+i<>.\src\2-1mux behaviorally.v
+i<>.\src\2-1mux structurally .v
+i<>.\src\8-1mux structurally.v
+i<>.\src\ControlUnit.v
+i<>.\src\SignExtend.v
+i<>.\src\RegisterFile.v
+i<>.\src\ALU.v
+i<>.\src\fulladder.v
+i<>.\src\and.v
+i<>.\src\and_gate.v
+i<>.\src\shift_2.v
+i<>.\src\alu_control.v
+i<>.\src\module_shift_left.v
+i<>.\src\shift_right_logical.v

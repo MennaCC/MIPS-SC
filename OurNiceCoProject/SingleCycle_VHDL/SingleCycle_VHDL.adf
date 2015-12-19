@@ -1,0 +1,65 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=SingleCycle_VHDL
+
+[Library]
+SingleCycle_VHDL=.\SingleCycle_VHDL.LIB
+
+[Settings]
+AccessRead=1
+AccessReadWrite=1
+AccessACCB=1
+AccessACCR=1
+AccessReadWriteSLP=1
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=NONE
+REFRESH_FLOW=1
+FAMILY=
+IMPL_TOOL=
+SYNTH_TOOL=
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+SingleCycle_VHDL=.
+Active_lib=
+
+[Folders]
+Name3=Makefiles
+Directory3=C:\Users\Hamdy\Source\Repos\MIPS-SC\OurNiceCoProject\SingleCycle_VHDL\
+Extension3=mak
+Name4=Memory
+Directory4=C:\Users\Hamdy\Source\Repos\MIPS-SC\OurNiceCoProject\SingleCycle_VHDL\src
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=C:\Users\Hamdy\Source\Repos\MIPS-SC\OurNiceCoProject\SingleCycle_VHDL\
+Extension5=dll
+Name6=PDF
+Directory6=C:\Users\Hamdy\Source\Repos\MIPS-SC\OurNiceCoProject\SingleCycle_VHDL\
+Extension6=pdf
+Name7=HTML
+Directory7=C:\Users\Hamdy\Source\Repos\MIPS-SC\OurNiceCoProject\SingleCycle_VHDL\
+Extension7=
+
+[Files]
+/DataMemory.vhd=-1
+/InstructionsMemory.vhd=-1
+
+[Files.Data]
+.\src\DataMemory.vhd=VHDL Source Code
+.\src\InstructionsMemory.vhd=VHDL Source Code
+
